@@ -3,7 +3,7 @@ const path = require('path')
 const glob = require('glob')
 const write = require('write-json-file')
 const load = require('load-json-file')
-const test = require('tape')
+const { test } = require('tap')
 const sharedstreetsPbf = require('./index')
 
 test('sharedstreets-pbf -- geometry', t => {

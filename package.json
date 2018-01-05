@@ -14,7 +14,7 @@
   "scripts": {
     "build": "rollup -c",
     "pretest": "rollup -f cjs -i index.mjs -o index.js",
-    "test": "node test.js",
+    "test": "nyc tap test.js",
     "postest": "standard index.mjs",
     "docs": "documentation readme index.js --section=API"
   },
@@ -44,10 +44,11 @@
     "rollup-plugin-node-resolve": "*",
     "rollup-plugin-uglify": "*",
     "standard": "*",
-    "tape": "*"
+    "tap": "*"
   },
   "dependencies": {
-    "pbf": "^3.1.0",
+    "@turf/helpers": "6.0.0-beta.3",
+    "pbf": "*",
     "sharedstreets-types": "*"
   }
 }
