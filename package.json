@@ -1,0 +1,53 @@
+{
+  "name": "sharedstreets-pbf",
+  "version": "0.1.0",
+  "description": "SharedStreets, a 'digital commons' for the street",
+  "main": "dist/sharedstreets-pbf",
+  "module": "dist/sharedstreets-pbf.mjs",
+  "browser": "dist/sharedstreets-pbf.min.js",
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.d.ts",
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "pretest": "rollup -f cjs -i index.mjs -o index.js",
+    "test": "node test.js",
+    "postest": "standard index.mjs",
+    "docs": "documentation readme index.js --section=API"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharedstreets/sharedstreets.js.git"
+  },
+  "keywords": [
+    "sharedstreets",
+    "streets",
+    "shared",
+    "pbf",
+    "proto"
+  ],
+  "author": "SharedStreets",
+  "contributors": [
+    "Denis Carriere <@DenisCarriere>",
+    "Kevin Webb <@kpwebb>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sharedstreets/sharedstreets.js/issues"
+  },
+  "homepage": "https://github.com/sharedstreets/sharedstreets.js#readme",
+  "devDependencies": {
+    "rollup": "*",
+    "rollup-plugin-node-resolve": "*",
+    "rollup-plugin-uglify": "*",
+    "standard": "*",
+    "tape": "*"
+  },
+  "dependencies": {
+    "pbf": "^3.1.0",
+    "sharedstreets-types": "*"
+  }
+}
