@@ -1,6 +1,25 @@
 import { lineString, point, featureCollection } from '@turf/helpers'
 import * as Pbf from 'pbf'
 
+// Hack solution
+// Parsing/encoding issue with SharedStreets PBF file
+// https://github.com/sharedstreets/sharedstreets-js-pbf/issues/1
+Pbf.prototype.readFields = function (readField, result, end) {
+  end = end || this.length
+
+  while (this.pos < end) {
+    var val = this.readVarint()
+    var tag = val >> 3
+    // var startPos = this.pos
+
+    this.type = val & 0x7
+    readField(tag, result, this)
+
+    // if (this.pos === startPos) this.skip(val)
+  }
+  return result
+}
+
 /**
  * Geometry Pbf
  *
@@ -11,7 +30,7 @@ import * as Pbf from 'pbf'
  * @example
  * var buffer = fs.readFileSync('z-x-y.geometry.pbf')
  *
- * var collection = sharedstreetsPbf.geometry(buffer);
+ * var collection = sharedstreetsPbf.geometry(buffer)
  * collection.features[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
  */
 export function geometry (buffer) {
@@ -89,7 +108,7 @@ export function geometry (buffer) {
  * @example
  * var buffer = fs.readFileSync('z-x-y.intersection.pbf')
  *
- * var collection = sharedstreetsPbf.intersection(buffer);
+ * var collection = sharedstreetsPbf.intersection(buffer)
  * collection.features[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
  */
 export function intersection (buffer) {
