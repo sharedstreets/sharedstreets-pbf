@@ -16,6 +16,7 @@
     "pretest": "rollup -f cjs -i index.mjs -o index.js",
     "test": "nyc tap test.js",
     "postest": "standard index.mjs",
+    "bench": "node bench.js",
     "docs": "documentation readme index.js --section=API"
   },
   "repository": {
@@ -40,6 +41,7 @@
   },
   "homepage": "https://github.com/sharedstreets/sharedstreets.js#readme",
   "devDependencies": {
+    "benchmark": "*",
     "rollup": "*",
     "rollup-plugin-node-resolve": "*",
     "rollup-plugin-uglify": "*",

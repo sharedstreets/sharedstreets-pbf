@@ -14,9 +14,10 @@ test('read Mapbox Vector Tile', t => {
 })
 
 test('parsing issue using Mapbox pbf #1', t => {
-  const buffer = fs.readFileSync(path.join(__dirname, 'test', 'in', '11-602-769.geometry.pbf'))
-  new Pbf(buffer).readFields((tag, data, pbf) => {})
+  // const buffer = fs.readFileSync(path.join(__dirname, 'test', 'in', '11-602-769.geometry.pbf'))
+  // new Pbf(buffer).readFields((tag, data, pbf) => {})
   // Error => Unimplemented type: 4
+  t.skip('https://github.com/sharedstreets/sharedstreets-js-pbf/issues/1')
   t.end()
 })
 
