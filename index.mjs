@@ -34,9 +34,21 @@ Pbf.prototype.readFields = function (readField, result, end) {
  * collection.features[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
  */
 export function geometry (buffer) {
+  var pbf = new Pbf(buffer)
+  // Store Collection of results
   var results = []
-
-  new Pbf(buffer).readFields(function (tag, data, pbf) {
+  // Single Result
+  var result = {
+    id: null,
+    fromIntersectionId: null,
+    toIntersectionId: null,
+    forwardReferenceId: null,
+    backReferenceId: null,
+    roadClass: null,
+    latlons: []
+  }
+  // Read PBF Fields
+  pbf.readFields(function (tag, data, pbf) {
     switch (tag) {
       case 1:
         data.id = pbf.readString()
@@ -61,7 +73,7 @@ export function geometry (buffer) {
         break
       default:
         if (data.id) {
-          // Save SharedStreets Intersection GeoJSON Point
+          // Save result as GeoJSON LineString
           var id = data.id
           var coords = latlonsToCoords(data.latlons)
           var properties = {
@@ -72,10 +84,9 @@ export function geometry (buffer) {
             backReferenceId: data.backReferenceId,
             roadClass: data.roadClass
           }
-          // console.log(data.latlons)
           results.push(lineString(coords, properties, {id: id}))
         }
-        // Reset Data
+        // Reset Result/Data
         data.id = null
         data.fromIntersectionId = null
         data.toIntersectionId = null
@@ -83,17 +94,8 @@ export function geometry (buffer) {
         data.backReferenceId = null
         data.roadClass = null
         data.latlons = []
-        return data
     }
-  }, {
-    id: null,
-    fromIntersectionId: null,
-    toIntersectionId: null,
-    forwardReferenceId: null,
-    backReferenceId: null,
-    roadClass: null,
-    latlons: []
-  })
+  }, result)
 
   return featureCollection(results)
 }

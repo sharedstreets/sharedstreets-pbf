@@ -14,7 +14,7 @@
   "scripts": {
     "build": "rollup -c",
     "pretest": "rollup -f cjs -i index.mjs -o index.js",
-    "test": "nyc tap test.js",
+    "test": "tap test.js",
     "postest": "standard index.mjs",
     "bench": "node bench.js",
     "docs": "documentation readme index.js --section=API"
