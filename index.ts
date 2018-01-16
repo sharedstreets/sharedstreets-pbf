@@ -2,10 +2,15 @@
 import { BufferReader } from 'protobufjs/light'
 import {
   SharedStreetsGeometry,
-  ISharedStreetsGeometry as GeometryPbf,
+  ISharedStreetsGeometry as SharedStreetsGeometryPbf,
   SharedStreetsIntersection,
-  ISharedStreetsIntersection as IntersectionPbf,
+  ISharedStreetsIntersection as SharedStreetsIntersectionPbf,
 } from './proto/sharedstreets'
+
+export {
+  SharedStreetsGeometryPbf,
+  SharedStreetsIntersectionPbf,
+}
 
 /**
  * Geometry Pbf
@@ -15,16 +20,16 @@ import {
  * @param {Buffer} buffer Pbf Buffer
  * @returns {FeatureCollection<LineString>} FeatureCollection of SharedStreets Geometries
  * @example
- * var buffer = fs.readFileSync('z-x-y.geometry.pbf')
+ * const buffer = fs.readFileSync('z-x-y.geometry.pbf')
  *
- * var collection = sharedstreetsPbf.geometry(buffer)
- * collection.features[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
+ * const geoms = sharedstreetsPbf.geometry(buffer)
+ * geoms[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
  */
-export function geometry (buffer: Buffer | Uint8Array) {
-  const results: GeometryPbf[] = []
+export function geometry (buffer: Buffer | Uint8Array): SharedStreetsGeometryPbf[] {
+  const results = []
   const reader = new BufferReader(buffer)
   while (reader.pos < reader.len) {
-    const result: any = SharedStreetsGeometry.decodeDelimited(reader).toJSON()
+    const result: SharedStreetsGeometryPbf = SharedStreetsGeometry.decodeDelimited(reader).toJSON()
     results.push(result)
   }
   return results
@@ -38,16 +43,16 @@ export function geometry (buffer: Buffer | Uint8Array) {
  * @param {Buffer} buffer Pbf Buffer
  * @returns {FeatureCollection<Point>} FeatureCollection of SharedStreets Intersections
  * @example
- * var buffer = fs.readFileSync('z-x-y.intersection.pbf')
+ * const buffer = fs.readFileSync('z-x-y.intersection.pbf')
  *
- * var collection = sharedstreetsPbf.intersection(buffer)
- * collection.features[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
+ * const intersections = sharedstreetsPbf.intersection(buffer)
+ * intersections[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
  */
-export function intersection (buffer: Buffer | Uint8Array) {
-  const results: IntersectionPbf[] = []
+export function intersection (buffer: Buffer | Uint8Array): SharedStreetsIntersectionPbf[] {
+  const results = []
   const reader = new BufferReader(buffer)
   while (reader.pos < reader.len) {
-    const result: any = SharedStreetsIntersection.decodeDelimited(reader).toJSON()
+    const result: SharedStreetsIntersectionPbf = SharedStreetsIntersection.decodeDelimited(reader).toJSON()
     results.push(result)
   }
   return results

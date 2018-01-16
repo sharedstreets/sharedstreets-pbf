@@ -1,5 +1,6 @@
 /// <reference types="node" />
-import { ISharedStreetsGeometry as GeometryPbf, ISharedStreetsIntersection as IntersectionPbf } from './proto/sharedstreets';
+import { ISharedStreetsGeometry as SharedStreetsGeometryPbf, ISharedStreetsIntersection as SharedStreetsIntersectionPbf } from './proto/sharedstreets';
+export { SharedStreetsGeometryPbf, SharedStreetsIntersectionPbf };
 /**
  * Geometry Pbf
  *
@@ -8,12 +9,12 @@ import { ISharedStreetsGeometry as GeometryPbf, ISharedStreetsIntersection as In
  * @param {Buffer} buffer Pbf Buffer
  * @returns {FeatureCollection<LineString>} FeatureCollection of SharedStreets Geometries
  * @example
- * var buffer = fs.readFileSync('z-x-y.geometry.pbf')
+ * const buffer = fs.readFileSync('z-x-y.geometry.pbf')
  *
- * var collection = sharedstreetsPbf.geometry(buffer)
- * collection.features[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
+ * const geoms = sharedstreetsPbf.geometry(buffer)
+ * geoms[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
  */
-export declare function geometry(buffer: Buffer | Uint8Array): GeometryPbf[];
+export declare function geometry(buffer: Buffer | Uint8Array): SharedStreetsGeometryPbf[];
 /**
  * Intersection Pbf
  *
@@ -22,10 +23,10 @@ export declare function geometry(buffer: Buffer | Uint8Array): GeometryPbf[];
  * @param {Buffer} buffer Pbf Buffer
  * @returns {FeatureCollection<Point>} FeatureCollection of SharedStreets Intersections
  * @example
- * var buffer = fs.readFileSync('z-x-y.intersection.pbf')
+ * const buffer = fs.readFileSync('z-x-y.intersection.pbf')
  *
- * var collection = sharedstreetsPbf.intersection(buffer)
- * collection.features[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
+ * const intersections = sharedstreetsPbf.intersection(buffer)
+ * intersections[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
  */
-export declare function intersection(buffer: Buffer | Uint8Array): IntersectionPbf[];
+export declare function intersection(buffer: Buffer | Uint8Array): SharedStreetsIntersectionPbf[];
 export declare function latlonsToCoords(latlons: number[]): [number, number][];

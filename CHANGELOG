@@ -1,5 +1,9 @@
 # Changelog
 
+## 2018-01-16 (0.2.0)
+
+- Replaced Mapbox's PBF library to `protobuf.js`
+
 ## 2018-01-05
 
 - Set up PBF parser as independant library

@@ -48,10 +48,10 @@ Parser for SharedStreets Geometry Pbf Buffers
 **Examples**
 
 ```javascript
-var buffer = fs.readFileSync('z-x-y.geometry.pbf')
+const buffer = fs.readFileSync('z-x-y.geometry.pbf')
 
-var collection = sharedstreetsPbf.geometry(buffer);
-collection.features[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
+const geoms = sharedstreetsPbf.geometry(buffer)
+geoms[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
 ```
 
 Returns **FeatureCollection&lt;LineString>** FeatureCollection of SharedStreets Geometries
@@ -69,10 +69,10 @@ Parser for SharedStreets Intersection Pbf Buffers
 **Examples**
 
 ```javascript
-var buffer = fs.readFileSync('z-x-y.intersection.pbf')
+const buffer = fs.readFileSync('z-x-y.intersection.pbf')
 
-var collection = sharedstreetsPbf.intersection(buffer);
-collection.features[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
+const intersections = sharedstreetsPbf.intersection(buffer)
+intersections[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
 ```
 
 Returns **FeatureCollection&lt;Point>** FeatureCollection of SharedStreets Intersections
