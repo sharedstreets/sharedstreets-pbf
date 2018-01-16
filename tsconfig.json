@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es5",
+		"pretty": true,
+		"moduleResolution": "node",
+		"noImplicitAny": true,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+		"declaration": true
+	},
+	"include": [
+		"index.ts"
+	]
+}

@@ -2,26 +2,29 @@
   "name": "sharedstreets-pbf",
   "version": "0.1.0",
   "description": "SharedStreets, a 'digital commons' for the street",
-  "main": "dist/sharedstreets-pbf",
-  "module": "dist/sharedstreets-pbf.mjs",
+  "main": "index",
+  "types": "index.d.ts",
   "browser": "dist/sharedstreets-pbf.min.js",
   "files": [
     "index.js",
-    "index.mjs",
+    "index.ts",
     "index.d.ts",
     "dist"
   ],
   "scripts": {
-    "build": "rollup -c",
-    "pretest": "rollup -f cjs -i index.mjs -o index.js",
-    "test": "tap test.js",
-    "postest": "standard index.mjs",
-    "bench": "node bench.js",
-    "docs": "documentation readme index.js --section=API"
+    "protobuf": "pbjs -t static -w commonjs -o proto/sharedstreets.js proto/sharedstreets.proto",
+    "protobuf-ts": "pbts -o proto/sharedstreets.d.ts proto/sharedstreets.js",
+    "pretest": "tsc",
+    "test": "node test.js",
+    "posttest": "tslint index.ts --project tsconfig.json",
+    "docs": "documentation readme index.js --section=API",
+    "benchmark": "benchmark bench.js",
+    "build": "browserify index.js -s sharedstreets -o dist/sharedstreets.js",
+    "postbuild": "uglifyjs dist/sharedstreets.js -o dist/sharedstreets.min.js -cm"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sharedstreets/sharedstreets.js.git"
+    "url": "git+https://github.com/sharedstreets/sharedstreets-js.git"
   },
   "keywords": [
     "sharedstreets",
@@ -37,20 +40,17 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sharedstreets/sharedstreets.js/issues"
+    "url": "https://github.com/sharedstreets/sharedstreets-js/issues"
   },
-  "homepage": "https://github.com/sharedstreets/sharedstreets.js#readme",
+  "homepage": "https://github.com/sharedstreets/sharedstreets-js#readme",
   "devDependencies": {
-    "benchmark": "*",
-    "rollup": "*",
-    "rollup-plugin-node-resolve": "*",
-    "rollup-plugin-uglify": "*",
-    "standard": "*",
-    "tap": "*"
+    "@types/node": "*",
+    "tape": "*",
+    "tslint": "*",
+    "typescript": "*"
   },
   "dependencies": {
     "@turf/helpers": "6.0.0-beta.3",
-    "pbf": "*",
     "sharedstreets-types": "*"
   }
 }
