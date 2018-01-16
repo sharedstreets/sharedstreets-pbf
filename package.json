@@ -9,6 +9,7 @@
     "index.js",
     "index.ts",
     "index.d.ts",
+    "proto",
     "dist"
   ],
   "scripts": {
