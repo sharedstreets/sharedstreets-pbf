@@ -54,7 +54,7 @@ const geoms = sharedstreetsPbf.geometry(buffer)
 geoms[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
 ```
 
-Returns **FeatureCollection&lt;LineString>** FeatureCollection of SharedStreets Geometries
+Returns **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;SharedStreetsGeometryPbf>** An Array of SharedStreet Geometry
 
 ### intersection
 
@@ -75,4 +75,4 @@ const intersections = sharedstreetsPbf.intersection(buffer)
 intersections[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
 ```
 
-Returns **FeatureCollection&lt;Point>** FeatureCollection of SharedStreets Intersections
+Returns **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;SharedStreetsIntersectionPbf>** An Array of SharedStreet Intersections

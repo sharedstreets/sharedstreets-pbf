@@ -18,7 +18,7 @@ export {
  * Parser for SharedStreets Geometry Pbf Buffers
  *
  * @param {Buffer} buffer Pbf Buffer
- * @returns {FeatureCollection<LineString>} FeatureCollection of SharedStreets Geometries
+ * @returns {Array<SharedStreetsGeometryPbf>} An Array of SharedStreet Geometry
  * @example
  * const buffer = fs.readFileSync('z-x-y.geometry.pbf')
  *
@@ -41,7 +41,7 @@ export function geometry (buffer: Buffer | Uint8Array): SharedStreetsGeometryPbf
  * Parser for SharedStreets Intersection Pbf Buffers
  *
  * @param {Buffer} buffer Pbf Buffer
- * @returns {FeatureCollection<Point>} FeatureCollection of SharedStreets Intersections
+ * @returns {Array<SharedStreetsIntersectionPbf>} An Array of SharedStreet Intersections
  * @example
  * const buffer = fs.readFileSync('z-x-y.intersection.pbf')
  *
