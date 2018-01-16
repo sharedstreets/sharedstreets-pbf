@@ -3,37 +3,8 @@ const path = require('path')
 const glob = require('glob')
 const write = require('write-json-file')
 const load = require('load-json-file')
-const Pbf = require('pbf')
 const test = require('tape')
 const sharedstreetsPbf = require('./index')
-
-test('read Mapbox Vector Tile', t => {
-  const buffer = fs.readFileSync(path.join(__dirname, 'test', 'in', '12-1143-1497.vector.pbf'))
-  new Pbf(buffer).readFields((tag, data, pbf) => {})
-  t.end()
-})
-
-test('parsing issue using Mapbox pbf #1.1', t => {
-  // const buffer = fs.readFileSync(path.join(__dirname, 'test', 'in', '11-602-769.geometry.pbf'))
-  // const pbf = new Pbf(buffer)
-  // pbf.readFields((tag, data, pbf) => {})
-
-  // Error => Unimplemented type: 4
-  t.skip('https://github.com/sharedstreets/sharedstreets-js-pbf/issues/1')
-  t.end()
-})
-
-test('parsing issue using Mapbox pbf #1.2', t => {
-  const buffer = fs.readFileSync(path.join(__dirname, 'test', 'in', '11-602-769.geometry.pbf'))
-  const SharedStreetsGeometry = require('./proto/sharedstreets').SharedStreetsGeometry
-
-  // read
-  const pbf = new Pbf(buffer)
-  SharedStreetsGeometry.read(pbf)
-  // Error => Unimplemented type: 4
-  t.skip('https://github.com/sharedstreets/sharedstreets-js-pbf/issues/1')
-  t.end()
-})
 
 test('sharedstreets-pbf -- geometry', t => {
   glob.sync(path.join(__dirname, 'test', 'in', '*.geometry.pbf')).forEach(filepath => {

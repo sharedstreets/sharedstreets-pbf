@@ -12,7 +12,7 @@
     "dist"
   ],
   "scripts": {
-    "protobuf": "pbjs -t static -w commonjs -o proto/sharedstreets.js proto/sharedstreets.proto",
+    "protobuf": "pbjs -t static-module -w commonjs -o proto/sharedstreets.js proto/sharedstreets.proto",
     "protobuf-ts": "pbts -o proto/sharedstreets.d.ts proto/sharedstreets.js",
     "pretest": "tsc",
     "test": "node test.js",
@@ -51,6 +51,7 @@
   },
   "dependencies": {
     "@turf/helpers": "6.0.0-beta.3",
+    "protobufjs": "^6.8.4",
     "sharedstreets-types": "*"
   }
 }
