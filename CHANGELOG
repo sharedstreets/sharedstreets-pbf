@@ -1,5 +1,9 @@
 # Changelog
 
+## 2018-01-17 (0.3.0)
+
+- Added support for `.reference()` & `.metadata()`
+
 ## 2018-01-16 (0.2.0)
 
 - Replaced Mapbox's PBF library to `protobuf.js`
