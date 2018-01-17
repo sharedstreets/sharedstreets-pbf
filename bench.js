@@ -9,10 +9,8 @@ const intersectionBuffer = fs.readFileSync(path.join('test', 'in', '11-602-769.i
 /**
  * Benchmark Results
  *
- * Mapbox PBF
- * ----------
- * geometry x 589 ops/sec ±1.04% (91 runs sampled)
- * intersection x 1,105 ops/sec ±0.80% (91 runs sampled)
+ * geometry x 1,486 ops/sec ±1.48% (90 runs sampled)
+ * intersection x 1,188 ops/sec ±6.95% (78 runs sampled)
  */
 const suite = new Benchmark.Suite('sharedstreets-pbf')
 suite
