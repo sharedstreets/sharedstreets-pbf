@@ -9,6 +9,8 @@ proto/sharedstreets.d.ts
 proto/sharedstreets.js
 
 index.js
+index.d.ts
+
 dist
 # Runtime data
 pids
