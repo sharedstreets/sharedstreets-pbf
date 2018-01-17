@@ -5,11 +5,17 @@ import {
   ISharedStreetsGeometry as SharedStreetsGeometryPbf,
   SharedStreetsIntersection,
   ISharedStreetsIntersection as SharedStreetsIntersectionPbf,
+  SharedStreetsReference,
+  ISharedStreetsReference as SharedStreetsReferencePbf,
+  SharedStreetsMetadata,
+  ISharedStreetsMetadata as SharedStreetsMetadataPbf,
 } from './proto/sharedstreets'
 
 export {
   SharedStreetsGeometryPbf,
   SharedStreetsIntersectionPbf,
+  SharedStreetsReferencePbf,
+  SharedStreetsMetadataPbf,
 }
 
 /**
@@ -56,13 +62,4 @@ export function intersection (buffer: Buffer | Uint8Array): SharedStreetsInterse
     results.push(result)
   }
   return results
-}
-
-export function latlonsToCoords (latlons: number[]) {
-  const coords: Array<[number, number]> = []
-  latlons.reduce((lat, deg, index) => {
-    if (index % 2 === 0) return deg // Latitude
-    coords.push([deg, lat])
-  })
-  return coords
 }

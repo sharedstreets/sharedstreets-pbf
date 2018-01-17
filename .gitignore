@@ -5,6 +5,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+proto/sharedstreets.d.ts
+proto/sharedstreets.js
+
 index.js
 dist
 # Runtime data

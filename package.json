@@ -13,15 +13,17 @@
     "dist"
   ],
   "scripts": {
-    "protobuf": "pbjs -t static-module -w commonjs -o proto/sharedstreets.js proto/sharedstreets.proto",
-    "protobuf-ts": "pbts -o proto/sharedstreets.d.ts proto/sharedstreets.js",
     "pretest": "tsc",
     "test": "node test.js",
     "posttest": "tslint index.ts --project tsconfig.json",
     "docs": "documentation readme --shallow index.js --section=API",
-    "benchmark": "benchmark bench.js",
-    "build": "browserify index.js -s sharedstreets -o dist/sharedstreets.js",
-    "postbuild": "uglifyjs dist/sharedstreets.js -o dist/sharedstreets.min.js -cm"
+    "benchmark": "node bench.js",
+    "prebuild": "npm run protobuf && npm run protobuf-ts",
+    "build": "tsc && npm run browserify && npm run uglify",
+    "protobuf": "pbjs -t static-module -w commonjs -o proto/sharedstreets.js proto/sharedstreets.proto",
+    "protobuf-ts": "pbts -o proto/sharedstreets.d.ts proto/sharedstreets.js",
+    "browserify": "browserify index.js -s sharedstreets -o ./dist/sharedstreets.js",
+    "uglify": "uglifyjs dist/sharedstreets.js -o dist/sharedstreets.min.js -cm"
   },
   "repository": {
     "type": "git",
@@ -46,9 +48,13 @@
   "homepage": "https://github.com/sharedstreets/sharedstreets-js#readme",
   "devDependencies": {
     "@types/node": "*",
+    "benchmark": "^2.1.4",
+    "browserify": "*",
+    "documentation": "*",
     "tape": "*",
     "tslint": "*",
-    "typescript": "*"
+    "typescript": "*",
+    "uglifyjs": "*"
   },
   "dependencies": {
     "@turf/helpers": "6.0.0-beta.3",
