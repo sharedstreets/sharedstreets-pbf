@@ -34,6 +34,8 @@ import * as sharedstreetsPbf from "https://unpkg.com/sharedstreets-pbf?module"
 
 -   [geometry](#geometry)
 -   [intersection](#intersection)
+-   [reference](#reference)
+-   [metadata](#metadata)
 
 ### geometry
 
@@ -76,3 +78,45 @@ intersections[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
 ```
 
 Returns **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;SharedStreetsIntersectionPbf>** An Array of SharedStreet Intersections
+
+### reference
+
+Reference Pbf
+
+Parser for SharedStreets Reference Pbf Buffers
+
+**Parameters**
+
+-   `buffer` **[Buffer](https://nodejs.org/api/buffer.html)** Pbf Buffer
+
+**Examples**
+
+```javascript
+const buffer = fs.readFileSync('z-x-y.reference.pbf')
+
+const references = sharedstreetsPbf.reference(buffer)
+references[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
+```
+
+Returns **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;SharedStreetsReferencePbf>** An Array of SharedStreet References
+
+### metadata
+
+Metadata Pbf
+
+Parser for SharedStreets Metadata Pbf Buffers
+
+**Parameters**
+
+-   `buffer` **[Buffer](https://nodejs.org/api/buffer.html)** Pbf Buffer
+
+**Examples**
+
+```javascript
+const buffer = fs.readFileSync('z-x-y.metadata.pbf')
+
+const metadatas = sharedstreetsPbf.metadata(buffer)
+metadatas[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
+```
+
+Returns **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;SharedStreetsMetadataPbf>** An Array of SharedStreet Metadatas
