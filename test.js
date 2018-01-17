@@ -6,7 +6,6 @@ const load = require('load-json-file')
 const test = require('tape')
 const sharedstreetsPbf = require('./index')
 
-
 const types = ['geometry', 'intersection', 'reference', 'metadata']
 types.forEach(type => {
   test('sharedstreets-pbf -- ' + type, t => {
@@ -22,23 +21,3 @@ types.forEach(type => {
     t.end()
   })
 })
-
-
-// test('sharedstreets-pbf -- intersection', t => {
-//   glob.sync(path.join(__dirname, 'test', 'in', '*.intersection.pbf')).forEach(filepath => {
-//     const {name, base} = path.parse(filepath)
-//     const buffer = fs.readFileSync(filepath)
-//     const result = sharedstreetsPbf.intersection(buffer)
-
-//     const outfile = filepath.replace(path.join('test', 'in', base), path.join('test', 'out', name + '.json'))
-//     if (process.env.REGEN) write.sync(outfile, result)
-//     t.deepEqual(result, load.sync(outfile), name)
-//   })
-//   t.end()
-// })
-
-// test('sharedstreets-pbf -- geometry.latlonsToCoords', t => {
-//   const latlons = [40, -74, 50, -80]
-//   t.deepEqual(sharedstreetsPbf.latlonsToCoords(latlons), [[-74, 40], [-80, 50]])
-//   t.end()
-// })

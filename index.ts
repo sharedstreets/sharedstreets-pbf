@@ -1,22 +1,11 @@
-// import { lineString, point, featureCollection } from '@turf/helpers'
-import { BufferReader } from 'protobufjs/light'
+import { BufferReader } from 'protobufjs/minimal'
+import * as Proto from './proto/sharedstreets'
 import {
   SharedStreetsGeometry,
-  ISharedStreetsGeometry as SharedStreetsGeometryPbf,
   SharedStreetsIntersection,
-  ISharedStreetsIntersection as SharedStreetsIntersectionPbf,
   SharedStreetsReference,
-  ISharedStreetsReference as SharedStreetsReferencePbf,
   SharedStreetsMetadata,
-  ISharedStreetsMetadata as SharedStreetsMetadataPbf,
-} from './proto/sharedstreets'
-
-export {
-  SharedStreetsGeometryPbf,
-  SharedStreetsIntersectionPbf,
-  SharedStreetsReferencePbf,
-  SharedStreetsMetadataPbf,
-}
+} from 'sharedstreets-types'
 
 /**
  * Geometry Pbf
@@ -24,7 +13,7 @@ export {
  * Parser for SharedStreets Geometry Pbf Buffers
  *
  * @param {Buffer} buffer Pbf Buffer
- * @returns {Array<SharedStreetsGeometryPbf>} An Array of SharedStreet Geometry
+ * @returns {Array<SharedStreetsGeometry>} An Array of SharedStreet Geometry
  * @example
  * const buffer = fs.readFileSync('z-x-y.geometry.pbf')
  *
@@ -32,7 +21,7 @@ export {
  * geoms[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
  */
 export function geometry (buffer: Buffer | Uint8Array) {
-  return readBuffer<SharedStreetsGeometryPbf>(buffer, SharedStreetsGeometry)
+  return readBuffer<SharedStreetsGeometry>(buffer, Proto.SharedStreetsGeometry)
 }
 
 /**
@@ -41,7 +30,7 @@ export function geometry (buffer: Buffer | Uint8Array) {
  * Parser for SharedStreets Intersection Pbf Buffers
  *
  * @param {Buffer} buffer Pbf Buffer
- * @returns {Array<SharedStreetsIntersectionPbf>} An Array of SharedStreet Intersections
+ * @returns {Array<SharedStreetsIntersection>} An Array of SharedStreet Intersections
  * @example
  * const buffer = fs.readFileSync('z-x-y.intersection.pbf')
  *
@@ -49,7 +38,7 @@ export function geometry (buffer: Buffer | Uint8Array) {
  * intersections[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
  */
 export function intersection (buffer: Buffer | Uint8Array) {
-  return readBuffer<SharedStreetsIntersectionPbf>(buffer, SharedStreetsIntersection)
+  return readBuffer<SharedStreetsIntersection>(buffer, Proto.SharedStreetsIntersection)
 }
 
 /**
@@ -66,7 +55,7 @@ export function intersection (buffer: Buffer | Uint8Array) {
  * references[0].id // => 'Bg1tCb7pjpb9Z8RZVGqBtK'
  */
 export function reference (buffer: Buffer | Uint8Array) {
-  return readBuffer<SharedStreetsReferencePbf>(buffer, SharedStreetsReference)
+  return readBuffer<SharedStreetsReference>(buffer, Proto.SharedStreetsReference)
 }
 
 /**
@@ -75,7 +64,7 @@ export function reference (buffer: Buffer | Uint8Array) {
  * Parser for SharedStreets Metadata Pbf Buffers
  *
  * @param {Buffer} buffer Pbf Buffer
- * @returns {Array<SharedStreetsMetadataPbf>} An Array of SharedStreet Metadatas
+ * @returns {Array<SharedStreetsMetadata>} An Array of SharedStreet Metadatas
  * @example
  * const buffer = fs.readFileSync('z-x-y.metadata.pbf')
  *
@@ -83,7 +72,7 @@ export function reference (buffer: Buffer | Uint8Array) {
  * metadatas[0].geometryID // => 'HGdvAjtekfDrLFzPevNtf3'
  */
 export function metadata (buffer: Buffer | Uint8Array) {
-  return readBuffer<SharedStreetsMetadataPbf>(buffer, SharedStreetsMetadata)
+  return readBuffer<SharedStreetsMetadata>(buffer, Proto.SharedStreetsMetadata)
 }
 
 function readBuffer<T = any>(buffer: Buffer | Uint8Array, parser: any): T[] {

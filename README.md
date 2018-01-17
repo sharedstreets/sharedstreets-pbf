@@ -56,7 +56,7 @@ const geoms = sharedstreetsPbf.geometry(buffer)
 geoms[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
 ```
 
-Returns **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;SharedStreetsGeometryPbf>** An Array of SharedStreet Geometry
+Returns **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;SharedStreetsGeometry>** An Array of SharedStreet Geometry
 
 ### intersection
 
@@ -77,7 +77,7 @@ const intersections = sharedstreetsPbf.intersection(buffer)
 intersections[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
 ```
 
-Returns **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;SharedStreetsIntersectionPbf>** An Array of SharedStreet Intersections
+Returns **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;SharedStreetsIntersection>** An Array of SharedStreet Intersections
 
 ### reference
 
@@ -95,7 +95,7 @@ Parser for SharedStreets Reference Pbf Buffers
 const buffer = fs.readFileSync('z-x-y.reference.pbf')
 
 const references = sharedstreetsPbf.reference(buffer)
-references[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
+references[0].id // => 'Bg1tCb7pjpb9Z8RZVGqBtK'
 ```
 
 Returns **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;SharedStreetsReferencePbf>** An Array of SharedStreet References
@@ -116,7 +116,7 @@ Parser for SharedStreets Metadata Pbf Buffers
 const buffer = fs.readFileSync('z-x-y.metadata.pbf')
 
 const metadatas = sharedstreetsPbf.metadata(buffer)
-metadatas[0].id // => 'NxPFkg4CrzHeFhwV7Uiq7K'
+metadatas[0].geometryID // => 'HGdvAjtekfDrLFzPevNtf3'
 ```
 
-Returns **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;SharedStreetsMetadataPbf>** An Array of SharedStreet Metadatas
+Returns **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;SharedStreetsMetadata>** An Array of SharedStreet Metadatas
