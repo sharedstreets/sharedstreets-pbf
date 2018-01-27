@@ -1,0 +1,945 @@
+[
+	{
+		"id": "86fd4ce6075888da623d0de14ae37e53",
+		"fromIntersectionId": "f3352ed24f5c413aa2aecbc0b45a86b6",
+		"toIntersectionId": "9128b46a9bcade3966f84f2a6ff32292",
+		"forwardReferenceId": "a6504a6605f30f8a201a7335f83dff1a",
+		"backReferenceId": "63cc56b20eeb9c358c7148cce6943066",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63074493408203,
+			-74.00015258789062,
+			40.63017654418945,
+			-74.00074768066406
+		]
+	},
+	{
+		"id": "8845f20090deb1e6174edf24757f69da",
+		"fromIntersectionId": "6c1be25c5a6259eac63bd6a93cef5b19",
+		"toIntersectionId": "0b6bebf9818ec8e21b062992497c0091",
+		"forwardReferenceId": "18f3637326ae2dcea2eaffea29f36ae2",
+		"backReferenceId": "b41091106c7a8c93ac681d71d8f9aa33",
+		"roadClass": "Residential",
+		"latlons": [
+			40.634883880615234,
+			-73.99943542480469,
+			40.63432693481445,
+			-74.00001525878906
+		]
+	},
+	{
+		"id": "95a369a35d78e8a5f22aec0f8440d62a",
+		"fromIntersectionId": "53be996ef89e68d205445b5a72309dfb",
+		"toIntersectionId": "864e1db56a44cdbcefccb0533e4c2726",
+		"forwardReferenceId": "832fd38f3ac0d2a479f18e077fd59a7f",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63645553588867,
+			-74.00052642822266,
+			40.63810348510742,
+			-74.00325012207031
+		]
+	},
+	{
+		"id": "b340905564a95b88eab5d8849babcc36",
+		"fromIntersectionId": "c743b658b3e4579b489bcb387f11939c",
+		"toIntersectionId": "fedb8fee73726482dbf809591aa04f7a",
+		"forwardReferenceId": "055ada969016ae4eab2adf462245efc5",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63733673095703,
+			-74.00047302246094,
+			40.63693618774414,
+			-73.99980926513672
+		]
+	},
+	{
+		"id": "cd391ffd5b71efb8f774fdf3afb13d4f",
+		"fromIntersectionId": "e5e7f0d9b900aaaef2660505589eba4f",
+		"toIntersectionId": "c743b658b3e4579b489bcb387f11939c",
+		"forwardReferenceId": "db2d0093717d14643d0db04c2e8ee2b7",
+		"backReferenceId": "a9719817cc01f453b62af37943447836",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63789749145508,
+			-73.99988555908203,
+			40.63733673095703,
+			-74.00047302246094
+		]
+	},
+	{
+		"id": "e00c18cd590aca491c10fcb49a217b27",
+		"fromIntersectionId": "6ef41d63ae1c577eba376d4133db448d",
+		"toIntersectionId": "9128b46a9bcade3966f84f2a6ff32292",
+		"forwardReferenceId": "e6ffb33d22ea9da29bf9078a5bd6dec7",
+		"backReferenceId": "9aadbd5976f96bc94d4514b159150870",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63150405883789,
+			-74.0029525756836,
+			40.63017654418945,
+			-74.00074768066406
+		]
+	},
+	{
+		"id": "e4ac0d8deb6c0eeeeb5268efadf6cf73",
+		"fromIntersectionId": "8d24179d13ae3944a4520b55a8304e48",
+		"toIntersectionId": "01d60199c1db46a4136fe76543037d1b",
+		"forwardReferenceId": "427963d93c2e056f522a95137339a4e4",
+		"roadClass": "Residential",
+		"latlons": [
+			40.642234802246094,
+			-74.00254821777344,
+			40.64090347290039,
+			-74.0003433227539
+		]
+	},
+	{
+		"id": "f5e4ef5dff4cb9175acc08d7359ea80a",
+		"fromIntersectionId": "6ea6b2d2c2d5dcd123ef100bfcc07211",
+		"toIntersectionId": "010f68457c9426a4c4351b7862ceef6c",
+		"forwardReferenceId": "a9c85ef4a2ea081dd1d21e4cd8858f1a",
+		"backReferenceId": "8120b4260c303f7769a9ac46cafe814c",
+		"roadClass": "Residential",
+		"latlons": [
+			40.64034652709961,
+			-74.00092315673828,
+			40.63978576660156,
+			-74.00151062011719
+		]
+	},
+	{
+		"id": "646fe8edfadb4520a6cb45eec1134e8b",
+		"fromIntersectionId": "826ee77f5be3242f90c0da284bb6356c",
+		"toIntersectionId": "53be996ef89e68d205445b5a72309dfb",
+		"forwardReferenceId": "0e1985e63eab2ab553da51cbc09a16df",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63544464111328,
+			-73.99884796142578,
+			40.63645553588867,
+			-74.00052642822266
+		]
+	},
+	{
+		"id": "6ec74b9b01fa9bfc06ba909f9d079508",
+		"fromIntersectionId": "6ce0bc92a826adde715221cde35e47ad",
+		"toIntersectionId": "0e0349da8e078a5268def3422ed7acb0",
+		"forwardReferenceId": "6a886241324217ac8f22ed574d02ef5d",
+		"backReferenceId": "d80a8ee34973daf0998896c36f725c5d",
+		"roadClass": "Residential",
+		"latlons": [
+			40.6324348449707,
+			-73.99839782714844,
+			40.631874084472656,
+			-73.99897766113281
+		]
+	},
+	{
+		"id": "80cf3fd5cdcb09848fc5e9d8582549c9",
+		"fromIntersectionId": "e9c8b02b39407b0063c320d676a49aad",
+		"toIntersectionId": "010f68457c9426a4c4351b7862ceef6c",
+		"forwardReferenceId": "b40e819523bf640a5f4f40cfca15e7cf",
+		"roadClass": "Residential",
+		"latlons": [
+			40.641117095947266,
+			-74.00371551513672,
+			40.63978576660156,
+			-74.00151062011719
+		]
+	},
+	{
+		"id": "a80e2dba64836bd1701aa269e316233a",
+		"fromIntersectionId": "ee2ce00704fddba6b55ad4b093f840cb",
+		"toIntersectionId": "c80df0873e55124f4fa1b37fee497463",
+		"forwardReferenceId": "27996dd139f3a49f7a10cef1411f086b",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63264465332031,
+			-74.00176239013672,
+			40.63131332397461,
+			-73.99955749511719
+		]
+	},
+	{
+		"id": "ab6be74095d0dcbe212f06a5a24d0be4",
+		"fromIntersectionId": "0f346cb98b5d8f0500e167cb0a390266",
+		"toIntersectionId": "ee2ce00704fddba6b55ad4b093f840cb",
+		"forwardReferenceId": "14d9f7eb25b0ad7fc4d4e3e8e519b1fb",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63405990600586,
+			-74.00410461425781,
+			40.63399124145508,
+			-74.00399017333984,
+			40.63264465332031,
+			-74.00176239013672
+		]
+	},
+	{
+		"id": "bcaaa4fe18c89656cb2808d6c37a1089",
+		"fromIntersectionId": "103c2dbe16d28cdcdcd5e5e253eaa026",
+		"toIntersectionId": "50d435b2c8ebe6a0e699ae32b8a9ccd9",
+		"forwardReferenceId": "4c365912fa0048d0f95bdc7ddd8c461c",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63453674316406,
+			-74.00338745117188,
+			40.6358642578125,
+			-74.00558471679688
+		]
+	},
+	{
+		"id": "bf9d63a37122f926b77cf6f0fca540be",
+		"fromIntersectionId": "0b6bebf9818ec8e21b062992497c0091",
+		"toIntersectionId": "482e943cc0fb7c0711174f00ddc5c272",
+		"forwardReferenceId": "579ff7037f2e8c4529e63c9032a9de62",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63432693481445,
+			-74.00001525878906,
+			40.635498046875,
+			-74.00196075439453
+		]
+	},
+	{
+		"id": "cef6dc876c83aaebc021ea4533eb11d7",
+		"fromIntersectionId": "864e1db56a44cdbcefccb0533e4c2726",
+		"toIntersectionId": "6e72b12bbe7b640b805620cb8aecc24a",
+		"forwardReferenceId": "69df2576747abf9a8abc0b421a94d1b0",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63810348510742,
+			-74.00325012207031,
+			40.639434814453125,
+			-74.00545501708984
+		]
+	},
+	{
+		"id": "def9c20d94f3f7920e9c33483c6a7d71",
+		"fromIntersectionId": "01d60199c1db46a4136fe76543037d1b",
+		"toIntersectionId": "6ea6b2d2c2d5dcd123ef100bfcc07211",
+		"forwardReferenceId": "11d21836ffa3423f27990ba7b0289e4a",
+		"backReferenceId": "95bb5ad74b1014a003f9b4b8d364dba9",
+		"roadClass": "Residential",
+		"latlons": [
+			40.64090347290039,
+			-74.0003433227539,
+			40.64034652709961,
+			-74.00092315673828
+		]
+	},
+	{
+		"id": "f819076cf9bd0e2bc2bc957a669831e2",
+		"fromIntersectionId": "e3a63d9854354710e46d873afb968f20",
+		"toIntersectionId": "3374ff8c7526f07e0a4232d0b4efc44e",
+		"forwardReferenceId": "ac7b416eff378ea393586cf402bef542",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63845443725586,
+			-73.99930572509766,
+			40.63789367675781,
+			-73.99837493896484
+		]
+	},
+	{
+		"id": "ff17f1d07fca75a7b9583414d6d0008f",
+		"fromIntersectionId": "ebf498e33d84c0977dbdd197116c08da",
+		"toIntersectionId": "88d2fd6165e981b182a35467dc712892",
+		"forwardReferenceId": "beb6ae1741621399ba0e7bffdb800e6e",
+		"backReferenceId": "67a7f5d22833dc8e595b1aadc233d77a",
+		"roadClass": "Residential",
+		"latlons": [
+			40.633766174316406,
+			-74.00060272216797,
+			40.633209228515625,
+			-74.00117492675781
+		]
+	},
+	{
+		"id": "08f49164530e18c554a7ce8779b38826",
+		"fromIntersectionId": "4f2508f13b6e29c1cb059d5d8543faf6",
+		"toIntersectionId": "e5e7f0d9b900aaaef2660505589eba4f",
+		"forwardReferenceId": "7435a03612d78138adb19488804a9217",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63741683959961,
+			-73.99909210205078,
+			40.63789749145508,
+			-73.99988555908203
+		]
+	},
+	{
+		"id": "2ce46033cb457069469737147354fbac",
+		"fromIntersectionId": "697d9ee5f2a3abf3c6fa07bd1e59c47a",
+		"toIntersectionId": "6ea6b2d2c2d5dcd123ef100bfcc07211",
+		"forwardReferenceId": "1a4b6bec0339ad632981497ddef842ec",
+		"roadClass": "Residential",
+		"latlons": [
+			40.639015197753906,
+			-73.99871826171875,
+			40.64034652709961,
+			-74.00092315673828
+		]
+	},
+	{
+		"id": "2c7d214ebc153d6dabfedc3ab4f8d894",
+		"fromIntersectionId": "4f2508f13b6e29c1cb059d5d8543faf6",
+		"toIntersectionId": "fedb8fee73726482dbf809591aa04f7a",
+		"forwardReferenceId": "52e5a51b2f5c2c40491d2efed96ecceb",
+		"backReferenceId": "a81cdbb90d975b8f225f74ec03d6c88c",
+		"roadClass": "Secondary",
+		"latlons": [
+			40.63741683959961,
+			-73.99909210205078,
+			40.63693618774414,
+			-73.99980926513672
+		]
+	},
+	{
+		"id": "6d40407ee95a4e3c6d03e56cfa15ff24",
+		"fromIntersectionId": "ebf498e33d84c0977dbdd197116c08da",
+		"toIntersectionId": "6ce0bc92a826adde715221cde35e47ad",
+		"forwardReferenceId": "2971cc310ec6ff9a156106bce778220a",
+		"roadClass": "Residential",
+		"latlons": [
+			40.633766174316406,
+			-74.00060272216797,
+			40.6324348449707,
+			-73.99839782714844
+		]
+	},
+	{
+		"id": "6ed6a333ad0eec56158f6c1d87c4e27b",
+		"fromIntersectionId": "482e943cc0fb7c0711174f00ddc5c272",
+		"toIntersectionId": "33ef3760f5c51c5f21a8e30d328c96ab",
+		"forwardReferenceId": "8d3b62e31fdd640543eccfcafdbcf063",
+		"roadClass": "Residential",
+		"latlons": [
+			40.635498046875,
+			-74.00196075439453,
+			40.636985778808594,
+			-74.0044174194336
+		]
+	},
+	{
+		"id": "83183552523eb0aa5fbb811743dcbcdf",
+		"fromIntersectionId": "88d2fd6165e981b182a35467dc712892",
+		"toIntersectionId": "ee2ce00704fddba6b55ad4b093f840cb",
+		"forwardReferenceId": "eec20cfaa4702c1e006c5cda2c8f6c75",
+		"backReferenceId": "8cd16cf317df3221ed6113598dd50058",
+		"roadClass": "Residential",
+		"latlons": [
+			40.633209228515625,
+			-74.00117492675781,
+			40.63264465332031,
+			-74.00176239013672
+		]
+	},
+	{
+		"id": "8c813e82dde4444c30a45b7b24789826",
+		"fromIntersectionId": "697d9ee5f2a3abf3c6fa07bd1e59c47a",
+		"toIntersectionId": "e3a63d9854354710e46d873afb968f20",
+		"forwardReferenceId": "fc3d6df8e933e9bb944bad71433242d6",
+		"backReferenceId": "57850e4dbee266041eb223c1028955af",
+		"roadClass": "Residential",
+		"latlons": [
+			40.639015197753906,
+			-73.99871826171875,
+			40.63845443725586,
+			-73.99930572509766
+		]
+	},
+	{
+		"id": "98f63d6cf4082c8d1312eaeb9e92bf2f",
+		"fromIntersectionId": "3374ff8c7526f07e0a4232d0b4efc44e",
+		"toIntersectionId": "4f2508f13b6e29c1cb059d5d8543faf6",
+		"forwardReferenceId": "1af10dadec7a8bfbc16eaff4655336f7",
+		"backReferenceId": "8a2ce9547b0a7ff44cf3c523dceb19be",
+		"roadClass": "Secondary",
+		"latlons": [
+			40.63789367675781,
+			-73.99837493896484,
+			40.63741683959961,
+			-73.99909210205078
+		]
+	},
+	{
+		"id": "a475fee93e8c946556ced3ab2365a870",
+		"fromIntersectionId": "c80df0873e55124f4fa1b37fee497463",
+		"toIntersectionId": "f3352ed24f5c413aa2aecbc0b45a86b6",
+		"forwardReferenceId": "e7fda0257f4f8e9d692896e73a6458ea",
+		"backReferenceId": "3b4d6cc168ffd9fc70a19f9d228cb70e",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63131332397461,
+			-73.99955749511719,
+			40.63074493408203,
+			-74.00015258789062
+		]
+	},
+	{
+		"id": "bf08c3b74a14aea11d9b68ed67180c57",
+		"fromIntersectionId": "6ef41d63ae1c577eba376d4133db448d",
+		"toIntersectionId": "74e4d1d95c584cb5eb96fe27f4db15d7",
+		"forwardReferenceId": "a0fc3e1798350a31c16527bb0a72f00c",
+		"backReferenceId": "9bd7933e1332ebedf85ff849c3fe9917",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63150405883789,
+			-74.0029525756836,
+			40.630924224853516,
+			-74.00355529785156
+		]
+	},
+	{
+		"id": "cb2e9f1000a7ea1568847b59d3e6e55b",
+		"fromIntersectionId": "53be996ef89e68d205445b5a72309dfb",
+		"toIntersectionId": "3d97a9a8f30c9ec801e8fa54c5503ed5",
+		"forwardReferenceId": "bd11385de9d918831af8c8049087ad54",
+		"backReferenceId": "0b3df049272ed95af41f5acd859389d1",
+		"roadClass": "Secondary",
+		"latlons": [
+			40.63645553588867,
+			-74.00052642822266,
+			40.63631057739258,
+			-74.00074005126953,
+			40.63613510131836,
+			-74.00100708007812,
+			40.63597869873047,
+			-74.0012435913086
+		]
+	},
+	{
+		"id": "cdaed8c668ac9967badb8b01e96146a5",
+		"fromIntersectionId": "3d97a9a8f30c9ec801e8fa54c5503ed5",
+		"toIntersectionId": "482e943cc0fb7c0711174f00ddc5c272",
+		"forwardReferenceId": "9198634775e9f75589234e608e489fca",
+		"backReferenceId": "95382dd3f44e18793263cc78ce4a0196",
+		"roadClass": "Secondary",
+		"latlons": [
+			40.63597869873047,
+			-74.0012435913086,
+			40.635498046875,
+			-74.00196075439453
+		]
+	},
+	{
+		"id": "d68fdab6428cb3a04046650a8f3a5534",
+		"fromIntersectionId": "0e0349da8e078a5268def3422ed7acb0",
+		"toIntersectionId": "88d2fd6165e981b182a35467dc712892",
+		"forwardReferenceId": "86b50c15e3d4e784eb5c92bac9b4fbba",
+		"roadClass": "Residential",
+		"latlons": [
+			40.631874084472656,
+			-73.99897766113281,
+			40.633209228515625,
+			-74.00117492675781
+		]
+	},
+	{
+		"id": "e42ef1471ed6a6082ef8b69c328f743d",
+		"fromIntersectionId": "482e943cc0fb7c0711174f00ddc5c272",
+		"toIntersectionId": "cf583ba698b60bf6cbc90f5e5036cf38",
+		"forwardReferenceId": "ffbd81074f0de4036318e2a461272c9b",
+		"backReferenceId": "12106978089cd94e67df4401f785337d",
+		"roadClass": "Secondary",
+		"latlons": [
+			40.635498046875,
+			-74.00196075439453,
+			40.63534927368164,
+			-74.00218200683594,
+			40.635169982910156,
+			-74.00244903564453,
+			40.63501739501953,
+			-74.00267028808594
+		]
+	},
+	{
+		"id": "eb95d2e93353acc1a090f1befdea37d7",
+		"fromIntersectionId": "e5e7f0d9b900aaaef2660505589eba4f",
+		"toIntersectionId": "cd7a94a751dc00a85346519fbcb00f28",
+		"forwardReferenceId": "4f6f37e201ec643613e90ae9a5575dec",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63789749145508,
+			-73.99988555908203,
+			40.639225006103516,
+			-74.00209045410156
+		]
+	},
+	{
+		"id": "f127fd5b031dc0ade0bd96b6d206c8fb",
+		"fromIntersectionId": "9128b46a9bcade3966f84f2a6ff32292",
+		"toIntersectionId": "356e673d0debbdf5f71aeb89c5214b98",
+		"forwardReferenceId": "b0a5783760ebf0d79f4e9e1c9c2017e4",
+		"backReferenceId": "47f453f06d1d2b5e357d024362e2ff28",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63017654418945,
+			-74.00074768066406,
+			40.62959671020508,
+			-74.00135040283203
+		]
+	},
+	{
+		"id": "f3663780cd7d04c472d376957096010b",
+		"fromIntersectionId": "cd7a94a751dc00a85346519fbcb00f28",
+		"toIntersectionId": "cbcdf0e335f98c420d3d37df2ff62724",
+		"forwardReferenceId": "4fcc8507c4253d258562621628182127",
+		"backReferenceId": "58d337b7f01262b639c8fe12db6bb61a",
+		"roadClass": "Residential",
+		"latlons": [
+			40.639225006103516,
+			-74.00209045410156,
+			40.638668060302734,
+			-74.00267028808594
+		]
+	},
+	{
+		"id": "f4956b294379ba35f269b2d131a04b49",
+		"fromIntersectionId": "3d97a9a8f30c9ec801e8fa54c5503ed5",
+		"toIntersectionId": "6c1be25c5a6259eac63bd6a93cef5b19",
+		"forwardReferenceId": "713d7b1ab75a3d9cb2bb6a3ee68281ae",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63597869873047,
+			-74.0012435913086,
+			40.634883880615234,
+			-73.99943542480469
+		]
+	},
+	{
+		"id": "0220ddeb30346b79737bf60b8f04d208",
+		"fromIntersectionId": "e9c8b02b39407b0063c320d676a49aad",
+		"toIntersectionId": "15672ae57170dda25768f5fc09f99bb1",
+		"forwardReferenceId": "88d0820f645ba9ac15dec5d68a61ecda",
+		"backReferenceId": "f055e490a3569e77df277708f2b90a21",
+		"roadClass": "Residential",
+		"latlons": [
+			40.641117095947266,
+			-74.00371551513672,
+			40.64055633544922,
+			-74.0042953491211
+		]
+	},
+	{
+		"id": "111cb7699feea2c843f1a4fa8220d5b8",
+		"fromIntersectionId": "8d24179d13ae3944a4520b55a8304e48",
+		"toIntersectionId": "4dab0f5005e87f39d1ce6a55707be91e",
+		"forwardReferenceId": "8a4f1d52cb8524b9addfa8ee5c15c965",
+		"backReferenceId": "353f4ade218e45deae0ee7563e6fbfe3",
+		"roadClass": "Residential",
+		"latlons": [
+			40.642234802246094,
+			-74.00254821777344,
+			40.64167404174805,
+			-74.00312805175781
+		]
+	},
+	{
+		"id": "185ccdf0d3251dc5e1d324fc6120bc20",
+		"fromIntersectionId": "ee2ce00704fddba6b55ad4b093f840cb",
+		"toIntersectionId": "58b3175c6f305e99e592b54cf0cce9d4",
+		"forwardReferenceId": "dc28949ec637d17e9cf979b2149dddc9",
+		"backReferenceId": "c0e6324793e25a972769b3b1d90ed066",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63264465332031,
+			-74.00176239013672,
+			40.632076263427734,
+			-74.00235748291016
+		]
+	},
+	{
+		"id": "21fda09efc18e05fa8112154328b71fc",
+		"fromIntersectionId": "864e1db56a44cdbcefccb0533e4c2726",
+		"toIntersectionId": "adc16de85595a01ed71a6ad35f6475ce",
+		"forwardReferenceId": "34a188b23004caf75535da2e870f8a63",
+		"backReferenceId": "35da3759bfbb7035c8e6a4feb1dfdf39",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63810348510742,
+			-74.00325012207031,
+			40.63754653930664,
+			-74.00383758544922
+		]
+	},
+	{
+		"id": "39a61ed5f94d0c3611130dc30e47a87b",
+		"fromIntersectionId": "010f68457c9426a4c4351b7862ceef6c",
+		"toIntersectionId": "e3a63d9854354710e46d873afb968f20",
+		"forwardReferenceId": "a2112aa14837ad65ee66d84baeb0a0ac",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63978576660156,
+			-74.00151062011719,
+			40.63845443725586,
+			-73.99930572509766
+		]
+	},
+	{
+		"id": "3c0f2630f3ac4321d04e8a94d21212e3",
+		"fromIntersectionId": "58b3175c6f305e99e592b54cf0cce9d4",
+		"toIntersectionId": "ac286f8e3a06d9b501df095f15660ab9",
+		"forwardReferenceId": "e719489e5944abdc19d75a8fd9237004",
+		"roadClass": "Residential",
+		"latlons": [
+			40.632076263427734,
+			-74.00235748291016,
+			40.633399963378906,
+			-74.00455474853516
+		]
+	},
+	{
+		"id": "3dc4ff8a63ba484c0a2ffb8da4abf8b2",
+		"fromIntersectionId": "010f68457c9426a4c4351b7862ceef6c",
+		"toIntersectionId": "cd7a94a751dc00a85346519fbcb00f28",
+		"forwardReferenceId": "c16933e558616fb179fa22b5c0392870",
+		"backReferenceId": "2717120292e4703765521512a1bf2150",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63978576660156,
+			-74.00151062011719,
+			40.639225006103516,
+			-74.00209045410156
+		]
+	},
+	{
+		"id": "3ec2cb2f5491d576df69a69cb4de477c",
+		"fromIntersectionId": "0f346cb98b5d8f0500e167cb0a390266",
+		"toIntersectionId": "759e3e42e2b884238bf8a73b8ca84cb5",
+		"forwardReferenceId": "5e5b4b78d9b2fcca648f04c6e8d97bdb",
+		"backReferenceId": "c377bec08ceab8ec38dd6ca623faab9d",
+		"roadClass": "Secondary",
+		"latlons": [
+			40.63405990600586,
+			-74.00410461425781,
+			40.63357162475586,
+			-74.00483703613281
+		]
+	},
+	{
+		"id": "3fbca7a6d99f44731cb731692484d78a",
+		"fromIntersectionId": "356e673d0debbdf5f71aeb89c5214b98",
+		"toIntersectionId": "74e4d1d95c584cb5eb96fe27f4db15d7",
+		"forwardReferenceId": "7ec9573803de8186ce85d8238c23aed2",
+		"roadClass": "Residential",
+		"latlons": [
+			40.62959671020508,
+			-74.00135040283203,
+			40.630924224853516,
+			-74.00355529785156
+		]
+	},
+	{
+		"id": "4ce0312058b1926d56285727e2f48b66",
+		"fromIntersectionId": "cf583ba698b60bf6cbc90f5e5036cf38",
+		"toIntersectionId": "ebf498e33d84c0977dbdd197116c08da",
+		"forwardReferenceId": "ca57eb708c2588c9aa0fcae94a3c0ff5",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63501739501953,
+			-74.00267028808594,
+			40.633766174316406,
+			-74.00060272216797
+		]
+	},
+	{
+		"id": "53c838617322946a6d0bb9d5ff173004",
+		"fromIntersectionId": "58b3175c6f305e99e592b54cf0cce9d4",
+		"toIntersectionId": "6ef41d63ae1c577eba376d4133db448d",
+		"forwardReferenceId": "1ac171b406455beb4fc1be46f818f311",
+		"backReferenceId": "c8408dfd8a41e1e84762027a0f5e7a59",
+		"roadClass": "Residential",
+		"latlons": [
+			40.632076263427734,
+			-74.00235748291016,
+			40.63150405883789,
+			-74.0029525756836
+		]
+	},
+	{
+		"id": "564f6875d0fb7b0e1277637236a25eca",
+		"fromIntersectionId": "cf583ba698b60bf6cbc90f5e5036cf38",
+		"toIntersectionId": "103c2dbe16d28cdcdcd5e5e253eaa026",
+		"forwardReferenceId": "d29d5e1b6c0325fe6b12790f1a28637d",
+		"backReferenceId": "64f095a2001e8b5b2a27f3c615136417",
+		"roadClass": "Secondary",
+		"latlons": [
+			40.63501739501953,
+			-74.00267028808594,
+			40.63453674316406,
+			-74.00338745117188
+		]
+	},
+	{
+		"id": "5987d3a0405d8bf54a449c37edde5b05",
+		"fromIntersectionId": "826ee77f5be3242f90c0da284bb6356c",
+		"toIntersectionId": "6c1be25c5a6259eac63bd6a93cef5b19",
+		"forwardReferenceId": "1d1df5dea870746c77900569b3f593f9",
+		"backReferenceId": "858dd17b0cd4673172b9c62ec062044c",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63544464111328,
+			-73.99884796142578,
+			40.634883880615234,
+			-73.99943542480469
+		]
+	},
+	{
+		"id": "6c8e8662a2eeb7bca206b9e636f32521",
+		"fromIntersectionId": "74e4d1d95c584cb5eb96fe27f4db15d7",
+		"toIntersectionId": "d8e6fcd29c7aef7974d7d7985e60c8b4",
+		"forwardReferenceId": "1fbf432ce64ea8383768c908dc38f2ef",
+		"backReferenceId": "3b7d62e4636dc55c30bed6e88f8c419c",
+		"roadClass": "Residential",
+		"latlons": [
+			40.630924224853516,
+			-74.00355529785156,
+			40.63085174560547,
+			-74.00362396240234,
+			40.630550384521484,
+			-74.00394439697266,
+			40.63042068481445,
+			-74.00407409667969,
+			40.63036346435547,
+			-74.00413513183594
+		]
+	},
+	{
+		"id": "791e7af144a5fa26671fc0d1533d7180",
+		"fromIntersectionId": "fedb8fee73726482dbf809591aa04f7a",
+		"toIntersectionId": "53be996ef89e68d205445b5a72309dfb",
+		"forwardReferenceId": "8c60deb29f3848ddc95d617496f30fb7",
+		"backReferenceId": "6a01a9d83d8112fad7bd9739e181cf3a",
+		"roadClass": "Secondary",
+		"latlons": [
+			40.63693618774414,
+			-73.99980926513672,
+			40.63645553588867,
+			-74.00052642822266
+		]
+	},
+	{
+		"id": "884a415da0bc9c50e84660ae8156d5c9",
+		"fromIntersectionId": "e3a63d9854354710e46d873afb968f20",
+		"toIntersectionId": "e5e7f0d9b900aaaef2660505589eba4f",
+		"forwardReferenceId": "14486864b260f06e256436b4e5f4ef96",
+		"backReferenceId": "aa6117d3315bb559b695d2c64c59dc3b",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63845443725586,
+			-73.99930572509766,
+			40.63789749145508,
+			-73.99988555908203
+		]
+	},
+	{
+		"id": "91ddf7f480ccc7a7b42f40876a331458",
+		"fromIntersectionId": "74e4d1d95c584cb5eb96fe27f4db15d7",
+		"toIntersectionId": "a68e5a45d4509628fddf613dd9085abb",
+		"forwardReferenceId": "98e5b005fe27f1806b55c2ae1ce18f99",
+		"roadClass": "Residential",
+		"latlons": [
+			40.630924224853516,
+			-74.00355529785156,
+			40.63225173950195,
+			-74.0057601928711
+		]
+	},
+	{
+		"id": "a60176caf5224aec4ae90addb64a9e4c",
+		"fromIntersectionId": "adc16de85595a01ed71a6ad35f6475ce",
+		"toIntersectionId": "3d97a9a8f30c9ec801e8fa54c5503ed5",
+		"forwardReferenceId": "b52a0e0633951805409fa45933bfdbea",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63754653930664,
+			-74.00383758544922,
+			40.63597869873047,
+			-74.0012435913086
+		]
+	},
+	{
+		"id": "b752c8ec71b3bc3b284fd42999328484",
+		"fromIntersectionId": "88d2fd6165e981b182a35467dc712892",
+		"toIntersectionId": "103c2dbe16d28cdcdcd5e5e253eaa026",
+		"forwardReferenceId": "0c25328886a7bdef7beeb3d04569d2fa",
+		"roadClass": "Residential",
+		"latlons": [
+			40.633209228515625,
+			-74.00117492675781,
+			40.63453674316406,
+			-74.00338745117188
+		]
+	},
+	{
+		"id": "bcac680a14a164e1d49750d89995c855",
+		"fromIntersectionId": "6ea6b2d2c2d5dcd123ef100bfcc07211",
+		"toIntersectionId": "4dab0f5005e87f39d1ce6a55707be91e",
+		"forwardReferenceId": "2e7ac2e88036abf066ef70a48b8b9ffc",
+		"roadClass": "Residential",
+		"latlons": [
+			40.64034652709961,
+			-74.00092315673828,
+			40.64167404174805,
+			-74.00312805175781
+		]
+	},
+	{
+		"id": "bfd411b31544b94340d8fbfb1ab249a9",
+		"fromIntersectionId": "f3352ed24f5c413aa2aecbc0b45a86b6",
+		"toIntersectionId": "58b3175c6f305e99e592b54cf0cce9d4",
+		"forwardReferenceId": "46140197b8c924fbc372af6cfe2fd50f",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63074493408203,
+			-74.00015258789062,
+			40.632076263427734,
+			-74.00235748291016
+		]
+	},
+	{
+		"id": "15c509f37db89f22d9ac88c3d476506a",
+		"fromIntersectionId": "0e0349da8e078a5268def3422ed7acb0",
+		"toIntersectionId": "c80df0873e55124f4fa1b37fee497463",
+		"forwardReferenceId": "0b65cfb5a54e15a78476b15a7a2b8982",
+		"backReferenceId": "f153d5b56b196ca923adddf971bdcd6e",
+		"roadClass": "Residential",
+		"latlons": [
+			40.631874084472656,
+			-73.99897766113281,
+			40.63131332397461,
+			-73.99955749511719
+		]
+	},
+	{
+		"id": "2b7b80eadf90e6e500f675d12dc1f66f",
+		"fromIntersectionId": "cd7a94a751dc00a85346519fbcb00f28",
+		"toIntersectionId": "15672ae57170dda25768f5fc09f99bb1",
+		"forwardReferenceId": "f090e7eef48bcb1b5a909c7d460ba52d",
+		"roadClass": "Residential",
+		"latlons": [
+			40.639225006103516,
+			-74.00209045410156,
+			40.64055633544922,
+			-74.0042953491211
+		]
+	},
+	{
+		"id": "2f2aa7034fd25fe067fc7ada2c977e74",
+		"fromIntersectionId": "d8e6fcd29c7aef7974d7d7985e60c8b4",
+		"toIntersectionId": "bc28b90a4ff61ddff691b9aa12bae89c",
+		"forwardReferenceId": "edec6377d52811c4affedb9820f44586",
+		"backReferenceId": "583b49b05f491255246c5c2593883972",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63036346435547,
+			-74.00413513183594,
+			40.62980270385742,
+			-74.00471496582031
+		]
+	},
+	{
+		"id": "3e535b3e08fca1ce0c2dd7b4c3959d75",
+		"fromIntersectionId": "cbcdf0e335f98c420d3d37df2ff62724",
+		"toIntersectionId": "c743b658b3e4579b489bcb387f11939c",
+		"forwardReferenceId": "8d682b852d3ce82fd0848b30aea32502",
+		"roadClass": "Residential",
+		"latlons": [
+			40.638668060302734,
+			-74.00267028808594,
+			40.63733673095703,
+			-74.00047302246094
+		]
+	},
+	{
+		"id": "41bc263cb1f9c836fd06cb02c6d0fa48",
+		"fromIntersectionId": "adc16de85595a01ed71a6ad35f6475ce",
+		"toIntersectionId": "33ef3760f5c51c5f21a8e30d328c96ab",
+		"forwardReferenceId": "c1610f2077481b28da2766f5b9b8116f",
+		"backReferenceId": "7702bde2e1e386ab534dd297961f380f",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63754653930664,
+			-74.00383758544922,
+			40.636985778808594,
+			-74.0044174194336
+		]
+	},
+	{
+		"id": "431cc87b878dce0518870aa91d71a3c3",
+		"fromIntersectionId": "5d3c42278e2ab216ac6de7b26b1c23bc",
+		"toIntersectionId": "01d60199c1db46a4136fe76543037d1b",
+		"forwardReferenceId": "91362ae9f1094d43eb7e556e99b2f536",
+		"backReferenceId": "0224cb803482fb229982689cb8fb5ea2",
+		"roadClass": "Residential",
+		"latlons": [
+			40.642024993896484,
+			-73.99917602539062,
+			40.6414680480957,
+			-73.999755859375,
+			40.64090347290039,
+			-74.0003433227539
+		]
+	},
+	{
+		"id": "52cc37b9df42d281777349b2edd3a639",
+		"fromIntersectionId": "cbcdf0e335f98c420d3d37df2ff62724",
+		"toIntersectionId": "864e1db56a44cdbcefccb0533e4c2726",
+		"forwardReferenceId": "5371ed22a448511a3c47f5556e4fdaa7",
+		"backReferenceId": "eec89ef9d4b03108d240d77a265d81fe",
+		"roadClass": "Residential",
+		"latlons": [
+			40.638668060302734,
+			-74.00267028808594,
+			40.63810348510742,
+			-74.00325012207031
+		]
+	},
+	{
+		"id": "5a43ae58b32050847bca8dd787fb7892",
+		"fromIntersectionId": "103c2dbe16d28cdcdcd5e5e253eaa026",
+		"toIntersectionId": "0f346cb98b5d8f0500e167cb0a390266",
+		"forwardReferenceId": "1ad331ed092943a431f645fdf61f3258",
+		"backReferenceId": "81c5a0352f4db60f897c845d407a28ac",
+		"roadClass": "Secondary",
+		"latlons": [
+			40.63453674316406,
+			-74.00338745117188,
+			40.63438415527344,
+			-74.00362396240234,
+			40.63405990600586,
+			-74.00410461425781
+		]
+	},
+	{
+		"id": "5fba0cf0b8070d5da9ca481c3b7598bf",
+		"fromIntersectionId": "4dab0f5005e87f39d1ce6a55707be91e",
+		"toIntersectionId": "e9c8b02b39407b0063c320d676a49aad",
+		"forwardReferenceId": "d8007897f7befa084357e967d8f5e40e",
+		"backReferenceId": "a8615168451c87061e7886e08a3fb201",
+		"roadClass": "Residential",
+		"latlons": [
+			40.64167404174805,
+			-74.00312805175781,
+			40.641117095947266,
+			-74.00371551513672
+		]
+	},
+	{
+		"id": "6537147472db7c81faa8928c415f8198",
+		"fromIntersectionId": "0b6bebf9818ec8e21b062992497c0091",
+		"toIntersectionId": "ebf498e33d84c0977dbdd197116c08da",
+		"forwardReferenceId": "5fb001693e60ddcb73c6a1e821de8a25",
+		"backReferenceId": "447e16021dc2fd980e393bf3935c9eac",
+		"roadClass": "Residential",
+		"latlons": [
+			40.63432693481445,
+			-74.00001525878906,
+			40.633766174316406,
+			-74.00060272216797
+		]
+	}
+]

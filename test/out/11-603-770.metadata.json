@@ -1,0 +1,1110 @@
+[
+	{
+		"geometryID": "86fd4ce6075888da623d0de14ae37e53",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "221595204",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"2620907642",
+						"42460255"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "8845f20090deb1e6174edf24757f69da",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "5681557",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42533669",
+						"42517366"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "95a369a35d78e8a5f22aec0f8440d62a",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "280656554",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42460936",
+						"42473455"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "b340905564a95b88eab5d8849babcc36",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "221568678",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42526037",
+						"42460934"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "cd391ffd5b71efb8f774fdf3afb13d4f",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "225541886",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42473031",
+						"42526037"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "e00c18cd590aca491c10fcb49a217b27",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "46865603",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42533686",
+						"42460255"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "e4ac0d8deb6c0eeeeb5268efadf6cf73",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "46848376",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42492845",
+						"42473442"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "f5e4ef5dff4cb9175acc08d7359ea80a",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "226938478",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42466801",
+						"42473446"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "646fe8edfadb4520a6cb45eec1134e8b",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "280656554",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42525468",
+						"42460936"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "6ec74b9b01fa9bfc06ba909f9d079508",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "221595204",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42460239",
+						"42460243"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "80cf3fd5cdcb09848fc5e9d8582549c9",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "221568691",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42526691",
+						"42473446"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "a80e2dba64836bd1701aa269e316233a",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "5680412",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42521610",
+						"42460247"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "ab6be74095d0dcbe212f06a5a24d0be4",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "5680412",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42460956",
+						"42521607",
+						"42521610"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "bcaaa4fe18c89656cb2808d6c37a1089",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "221595227",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42460951",
+						"42473469"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "bf9d63a37122f926b77cf6f0fca540be",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "361068421",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42517366",
+						"42460944"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "cef6dc876c83aaebc021ea4533eb11d7",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "280656554",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42473455",
+						"42525462"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "def9c20d94f3f7920e9c33483c6a7d71",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "226938478",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42473442",
+						"42466801"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "f819076cf9bd0e2bc2bc957a669831e2",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "221568691",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42526035",
+						"42460911"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "ff17f1d07fca75a7b9583414d6d0008f",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "5681557",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42490252",
+						"42533678"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "08f49164530e18c554a7ce8779b38826",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "221569423",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42460925",
+						"42473031"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "2ce46033cb457069469737147354fbac",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "221569416",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42466804",
+						"42466801"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "2c7d214ebc153d6dabfedc3ab4f8d894",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "226938466",
+					"roadClass": "Secondary",
+					"nodeIds": [
+						"42460925",
+						"42460934"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "6d40407ee95a4e3c6d03e56cfa15ff24",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "221595226",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42490252",
+						"42460239"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "6ed6a333ad0eec56158f6c1d87c4e27b",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "361068421",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42460944",
+						"42473461"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "83183552523eb0aa5fbb811743dcbcdf",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "5681557",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42533678",
+						"42521610"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "8c813e82dde4444c30a45b7b24789826",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "225541886",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42466804",
+						"42526035"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "98f63d6cf4082c8d1312eaeb9e92bf2f",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "226938466",
+					"roadClass": "Secondary",
+					"nodeIds": [
+						"42460911",
+						"42460925"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "a475fee93e8c946556ced3ab2365a870",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "221595204",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42460247",
+						"2620907642"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "bf08c3b74a14aea11d9b68ed67180c57",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "5681557",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42533686",
+						"42484311"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "cb2e9f1000a7ea1568847b59d3e6e55b",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "420584802",
+					"roadClass": "Secondary",
+					"nodeIds": [
+						"42460936",
+						"4205392127"
+					]
+				},
+				{
+					"wayId": "420584807",
+					"roadClass": "Secondary",
+					"nodeIds": [
+						"4205392127",
+						"4205392126"
+					]
+				},
+				{
+					"wayId": "420584801",
+					"roadClass": "Secondary",
+					"nodeIds": [
+						"4205392126",
+						"42460941"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "cdaed8c668ac9967badb8b01e96146a5",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "420584800",
+					"roadClass": "Secondary",
+					"nodeIds": [
+						"42460941",
+						"42460944"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "d68fdab6428cb3a04046650a8f3a5534",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "221595215",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42460243",
+						"42533678"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "e42ef1471ed6a6082ef8b69c328f743d",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "420584799",
+					"roadClass": "Secondary",
+					"nodeIds": [
+						"42460944",
+						"4205392125"
+					]
+				},
+				{
+					"wayId": "420584813",
+					"roadClass": "Secondary",
+					"nodeIds": [
+						"4205392125",
+						"4205392124"
+					]
+				},
+				{
+					"wayId": "420584816",
+					"roadClass": "Secondary",
+					"nodeIds": [
+						"4205392124",
+						"42460948"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "eb95d2e93353acc1a090f1befdea37d7",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "221569423",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42473031",
+						"42473028"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "f127fd5b031dc0ade0bd96b6d206c8fb",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "221595204",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42460255",
+						"42460263"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "f3663780cd7d04c472d376957096010b",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "226938478",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42473028",
+						"42473452"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "f4956b294379ba35f269b2d131a04b49",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "5681869",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42460941",
+						"42533669"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "0220ddeb30346b79737bf60b8f04d208",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "222266006",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42526691",
+						"42473024"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "111cb7699feea2c843f1a4fa8220d5b8",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "222266006",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42492845",
+						"42466799"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "185ccdf0d3251dc5e1d324fc6120bc20",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "5681557",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42521610",
+						"2620907643"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "21fda09efc18e05fa8112154328b71fc",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "226938478",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42473455",
+						"42473458"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "39a61ed5f94d0c3611130dc30e47a87b",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "221568691",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42473446",
+						"42526035"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "3c0f2630f3ac4321d04e8a94d21212e3",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "249652797",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"2620907643",
+						"2620907644"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "3dc4ff8a63ba484c0a2ffb8da4abf8b2",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "226938478",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42473446",
+						"42473028"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "3ec2cb2f5491d576df69a69cb4de477c",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "420584817",
+					"roadClass": "Secondary",
+					"nodeIds": [
+						"42460956",
+						"2620907645"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "3fbca7a6d99f44731cb731692484d78a",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "5677195",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42460263",
+						"42484311"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "4ce0312058b1926d56285727e2f48b66",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "221595226",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42460948",
+						"42490252"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "53c838617322946a6d0bb9d5ff173004",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "5681557",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"2620907643",
+						"42533686"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "564f6875d0fb7b0e1277637236a25eca",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "221595217",
+					"roadClass": "Secondary",
+					"nodeIds": [
+						"42460948",
+						"42460951"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "5987d3a0405d8bf54a449c37edde5b05",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "5681557",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42525468",
+						"42533669"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "6c8e8662a2eeb7bca206b9e636f32521",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "5681557",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42484311",
+						"2548100077"
+					]
+				},
+				{
+					"wayId": "247960484",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"2548100077",
+						"42533694",
+						"2548100075"
+					]
+				},
+				{
+					"wayId": "247960483",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"2548100075",
+						"42486101"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "791e7af144a5fa26671fc0d1533d7180",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "226938466",
+					"roadClass": "Secondary",
+					"nodeIds": [
+						"42460934",
+						"42460936"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "884a415da0bc9c50e84660ae8156d5c9",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "225541886",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42526035",
+						"42473031"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "91ddf7f480ccc7a7b42f40876a331458",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "5677195",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42484311",
+						"42484308"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "a60176caf5224aec4ae90addb64a9e4c",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "5681869",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42473458",
+						"42460941"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "b752c8ec71b3bc3b284fd42999328484",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "221595215",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42533678",
+						"42460951"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "bcac680a14a164e1d49750d89995c855",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "221569416",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42466801",
+						"42466799"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "bfd411b31544b94340d8fbfb1ab249a9",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "249652797",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"2620907642",
+						"2620907643"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "15c509f37db89f22d9ac88c3d476506a",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "221595204",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42460243",
+						"42460247"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "2b7b80eadf90e6e500f675d12dc1f66f",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "221569423",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42473028",
+						"42473024"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "2f2aa7034fd25fe067fc7ada2c977e74",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "247960483",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42486101",
+						"42531500"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "3e535b3e08fca1ce0c2dd7b4c3959d75",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "221568678",
+					"roadClass": "Residential",
+					"oneWay": true,
+					"nodeIds": [
+						"42473452",
+						"42526037"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "41bc263cb1f9c836fd06cb02c6d0fa48",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "226938478",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42473458",
+						"42473461"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "431cc87b878dce0518870aa91d71a3c3",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "226938478",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42473431",
+						"42473438",
+						"42473442"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "52cc37b9df42d281777349b2edd3a639",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "226938478",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42473452",
+						"42473455"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "5a43ae58b32050847bca8dd787fb7892",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "420584810",
+					"roadClass": "Secondary",
+					"nodeIds": [
+						"42460951",
+						"4205392123"
+					]
+				},
+				{
+					"wayId": "420584817",
+					"roadClass": "Secondary",
+					"nodeIds": [
+						"4205392123",
+						"42460956"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "5fba0cf0b8070d5da9ca481c3b7598bf",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "222266006",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42466799",
+						"42526691"
+					]
+				}
+			]
+		}
+	},
+	{
+		"geometryID": "6537147472db7c81faa8928c415f8198",
+		"osmMetadata": {
+			"waySections": [
+				{
+					"wayId": "5681557",
+					"roadClass": "Residential",
+					"nodeIds": [
+						"42517366",
+						"42490252"
+					]
+				}
+			]
+		}
+	}
+]

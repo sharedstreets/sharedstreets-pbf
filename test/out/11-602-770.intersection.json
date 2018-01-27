@@ -1,0 +1,409 @@
+[
+	{
+		"id": "a68e5a45d4509628fddf613dd9085abb",
+		"nodeId": "42484308",
+		"lat": 40.63225173950195,
+		"lon": -74.0057601928711,
+		"inboundReferenceIds": [
+			"98e5b005fe27f1806b55c2ae1ce18f99",
+			"04cc82749d3e8a4f4c9ec2a8e5c573bc"
+		],
+		"outboundReferenceIds": [
+			"3aa47f8706e96dde5d0228e248d55499",
+			"9611462ef4678b111aabb8bba1ac6bc3"
+		]
+	},
+	{
+		"id": "f7501a6a6ce492074be5eae6bb00f48e",
+		"nodeId": "4792148751",
+		"lat": 40.63078689575195,
+		"lon": -74.00634002685547,
+		"inboundReferenceIds": [
+			"9b941dd97b8f266b494aa911c48ceaec",
+			"3c85ff94267b963df8c005e2412adf7c"
+		],
+		"outboundReferenceIds": [
+			"88d316fbd29ec6b59b609a681f4e77ed",
+			"4fadd58943013d9af1a1bb811ba2a6fe"
+		]
+	},
+	{
+		"id": "15672ae57170dda25768f5fc09f99bb1",
+		"nodeId": "42473024",
+		"lat": 40.64055633544922,
+		"lon": -74.0042953491211,
+		"inboundReferenceIds": [
+			"2bfc4f6df3ac8df4672d1a784f79267f",
+			"88d0820f645ba9ac15dec5d68a61ecda",
+			"f090e7eef48bcb1b5a909c7d460ba52d"
+		],
+		"outboundReferenceIds": [
+			"09d8774cd977a2fedf6b9ba82c81b606",
+			"f055e490a3569e77df277708f2b90a21",
+			"6acaa2c44b0b15429fb8f16b367644f7"
+		]
+	},
+	{
+		"id": "71505292021a38bf7689525002c19c44",
+		"nodeId": "42517359",
+		"lat": 40.63831329345703,
+		"lon": -74.00662231445312,
+		"inboundReferenceIds": [
+			"20a0b0a6025ab25ae34bcdbc3808147e",
+			"b6e80c547b4b5336bf147f5a9ced6267"
+		],
+		"outboundReferenceIds": [
+			"5b2fa5db44034193967d2e0b3f846bdb"
+		]
+	},
+	{
+		"id": "759e3e42e2b884238bf8a73b8ca84cb5",
+		"nodeId": "2620907645",
+		"lat": 40.63357162475586,
+		"lon": -74.00483703613281,
+		"inboundReferenceIds": [
+			"3187c9fceebd432147246fcc50bcebb8",
+			"82878fa7c676648f213f71d60eef6888",
+			"5e5b4b78d9b2fcca648f04c6e8d97bdb"
+		],
+		"outboundReferenceIds": [
+			"7837939860704ce042ac7d01290ebb1f",
+			"ea443fbb19446436086ef6e704b1fb97",
+			"c377bec08ceab8ec38dd6ca623faab9d"
+		]
+	},
+	{
+		"id": "8d1a6612a2fadc41443806f0269e4d11",
+		"nodeId": "42473476",
+		"lat": 40.63530349731445,
+		"lon": -74.00617218017578,
+		"inboundReferenceIds": [
+			"508891793a389d5f2fea56511fbb6159",
+			"45ff20557ef99f2bd2c67134f5ab5070"
+		],
+		"outboundReferenceIds": [
+			"61588f8231fec0463fef6cc48ec6e9b1",
+			"9d8bd3d6a5d6d10e1167398a4ee8308b",
+			"41a5e8c59256ffb4ffbd60462a6f053b"
+		]
+	},
+	{
+		"id": "97e640a29c2178d02545f7bac37a5d10",
+		"nodeId": "42473019",
+		"lat": 40.641883850097656,
+		"lon": -74.00650024414062,
+		"inboundReferenceIds": [
+			"6acaa2c44b0b15429fb8f16b367644f7"
+		]
+	},
+	{
+		"id": "a766e587670a0cff3aa2d5afb586c4de",
+		"nodeId": "42526041",
+		"lat": 40.63283157348633,
+		"lon": -74.0051498413086,
+		"inboundReferenceIds": [
+			"dab307d1845be9e7749831be71b610d3",
+			"1224416848ee2279b9865061b82f62ff",
+			"8e039b89ae29dd8d3fe5300f30e31b9c",
+			"3aa47f8706e96dde5d0228e248d55499"
+		],
+		"outboundReferenceIds": [
+			"04cc82749d3e8a4f4c9ec2a8e5c573bc",
+			"c4910255d3da3801e19a23716a62c694",
+			"151c2f1d810508a2de8c43d25ba5b1e2",
+			"0a5a9ad433b682ce7bcfadbb2af2850e"
+		]
+	},
+	{
+		"id": "d4ae8ca9cc6b3bcc249e0472695c5a41",
+		"nodeId": "42473465",
+		"lat": 40.63642501831055,
+		"lon": -74.0050048828125,
+		"inboundReferenceIds": [
+			"16c68b10309a64479924e5a3dce31ed7",
+			"ecd9935664e24d8b0fbc7204407a66f8"
+		],
+		"outboundReferenceIds": [
+			"6aadb546b544318a9d58b26205d7084e",
+			"165da45cb607711900077a78c3fe1a90",
+			"d67ed06a12e5fc4fa4f9195f6221bba9"
+		]
+	},
+	{
+		"id": "2f512700e8c2b26ce3568c49b693db51",
+		"nodeId": "4792148752",
+		"lat": 40.63066101074219,
+		"lon": -74.00613403320312,
+		"inboundReferenceIds": [
+			"3792db293c350dfa08cfc68343d7697f",
+			"be68c44771197e2231a89bc154dad024",
+			"4fadd58943013d9af1a1bb811ba2a6fe"
+		],
+		"outboundReferenceIds": [
+			"2a79848ae9b32ea32479a0bc40ad4dc1",
+			"8f4e865b51eb64bbac33b68e8fe30971",
+			"9b941dd97b8f266b494aa911c48ceaec"
+		]
+	},
+	{
+		"id": "4e27cf6a07620662d09eff8bd2f39c64",
+		"nodeId": "42536585",
+		"lat": 40.638877868652344,
+		"lon": -74.00604248046875,
+		"inboundReferenceIds": [
+			"5b2fa5db44034193967d2e0b3f846bdb",
+			"2f97b0d614bde67505b9c3aae237284f"
+		],
+		"outboundReferenceIds": [
+			"ce0c9d004fbb6fe17fe4f91ac49c338c",
+			"162e1938fc3173bbbf9c2f23196af2fb",
+			"20a0b0a6025ab25ae34bcdbc3808147e"
+		]
+	},
+	{
+		"id": "999a4395379c9439f7c423d5f8a99d8f",
+		"nodeId": "4792149357",
+		"lat": 40.63113784790039,
+		"lon": -74.00599670410156,
+		"inboundReferenceIds": [
+			"d72985a9a3f446b481439236b21b809d"
+		],
+		"outboundReferenceIds": [
+			"d32c1d40615f846f26852d5a109b6835"
+		]
+	},
+	{
+		"id": "9abed45626d9bf011960eb4531149972",
+		"nodeId": "4792149391",
+		"lat": 40.63105392456055,
+		"lon": -74.00615692138672,
+		"inboundReferenceIds": [
+			"ae897ef7c7c120f5b404478f420feb28"
+		],
+		"outboundReferenceIds": [
+			"9c7966a4df60f6199b2cd90ea7483072"
+		]
+	},
+	{
+		"id": "e200b7b9720db117cbe05d8d243b8c82",
+		"nodeId": "4209577523",
+		"lat": 40.632423400878906,
+		"lon": -74.00655364990234,
+		"inboundReferenceIds": [
+			"b91f3aa999b781e8f3ef393a1377a964"
+		],
+		"outboundReferenceIds": [
+			"d62df5503e02d75ec4e773307b3b1c19"
+		]
+	},
+	{
+		"id": "2f4c6c56222d8522db32cfad3787db4e",
+		"nodeId": "4792149392",
+		"lat": 40.6309928894043,
+		"lon": -74.00605773925781,
+		"inboundReferenceIds": [
+			"97fe38ddc5126f0113e8df2ab7906109"
+		],
+		"outboundReferenceIds": [
+			"1c5963adb64727abad9005e8bc40fd79"
+		]
+	},
+	{
+		"id": "33ef3760f5c51c5f21a8e30d328c96ab",
+		"nodeId": "42473461",
+		"lat": 40.636985778808594,
+		"lon": -74.0044174194336,
+		"inboundReferenceIds": [
+			"8d3b62e31fdd640543eccfcafdbcf063",
+			"6aadb546b544318a9d58b26205d7084e",
+			"c1610f2077481b28da2766f5b9b8116f"
+		],
+		"outboundReferenceIds": [
+			"16c68b10309a64479924e5a3dce31ed7",
+			"7702bde2e1e386ab534dd297961f380f",
+			"b6e80c547b4b5336bf147f5a9ced6267"
+		]
+	},
+	{
+		"id": "50d435b2c8ebe6a0e699ae32b8a9ccd9",
+		"nodeId": "42473469",
+		"lat": 40.6358642578125,
+		"lon": -74.00558471679688,
+		"inboundReferenceIds": [
+			"61588f8231fec0463fef6cc48ec6e9b1",
+			"165da45cb607711900077a78c3fe1a90",
+			"4c365912fa0048d0f95bdc7ddd8c461c"
+		],
+		"outboundReferenceIds": [
+			"ecd9935664e24d8b0fbc7204407a66f8",
+			"45ff20557ef99f2bd2c67134f5ab5070"
+		]
+	},
+	{
+		"id": "6226eb82c697270a5a74c9936c4aeb49",
+		"nodeId": "2620907646",
+		"lat": 40.63473129272461,
+		"lon": -74.00676727294922,
+		"inboundReferenceIds": [
+			"41a5e8c59256ffb4ffbd60462a6f053b",
+			"7837939860704ce042ac7d01290ebb1f"
+		],
+		"outboundReferenceIds": [
+			"508891793a389d5f2fea56511fbb6159"
+		]
+	},
+	{
+		"id": "6b5401ae96159736c6c648c7e03173b6",
+		"nodeId": "42460963",
+		"lat": 40.63308334350586,
+		"lon": -74.00556182861328,
+		"inboundReferenceIds": [
+			"7088e5523481848af8dfc1508b34e321",
+			"ea443fbb19446436086ef6e704b1fb97",
+			"0a5a9ad433b682ce7bcfadbb2af2850e"
+		],
+		"outboundReferenceIds": [
+			"82878fa7c676648f213f71d60eef6888",
+			"18ba268d51c7aa139c1d31e6e271f7c9",
+			"8e039b89ae29dd8d3fe5300f30e31b9c"
+		]
+	},
+	{
+		"id": "6e72b12bbe7b640b805620cb8aecc24a",
+		"nodeId": "42525462",
+		"lat": 40.639434814453125,
+		"lon": -74.00545501708984,
+		"inboundReferenceIds": [
+			"1433e4e6c523766306a784ea82dd0bd7",
+			"69df2576747abf9a8abc0b421a94d1b0",
+			"ce0c9d004fbb6fe17fe4f91ac49c338c"
+		],
+		"outboundReferenceIds": [
+			"2f97b0d614bde67505b9c3aae237284f",
+			"cac76806e63197d2c8ee95cad41fd3c9"
+		]
+	},
+	{
+		"id": "8f979d54b56fb9f09937fdf5fbda0525",
+		"nodeId": "42535383",
+		"lat": 40.63999557495117,
+		"lon": -74.00487518310547,
+		"inboundReferenceIds": [
+			"cac76806e63197d2c8ee95cad41fd3c9",
+			"09d8774cd977a2fedf6b9ba82c81b606"
+		],
+		"outboundReferenceIds": [
+			"1433e4e6c523766306a784ea82dd0bd7",
+			"126650969176d3c079c5c686d6b08f4e",
+			"2bfc4f6df3ac8df4672d1a784f79267f"
+		]
+	},
+	{
+		"id": "8f6da3d21592ca485cc175c8f9045336",
+		"nodeId": "42519477",
+		"lat": 40.62924575805664,
+		"lon": -74.00529479980469,
+		"inboundReferenceIds": [
+			"39a6f26f324f3b95fb8771731c84430f"
+		],
+		"outboundReferenceIds": [
+			"a152d637e750a4ac8bdd981c556965a5"
+		]
+	},
+	{
+		"id": "ac286f8e3a06d9b501df095f15660ab9",
+		"nodeId": "2620907644",
+		"lat": 40.633399963378906,
+		"lon": -74.00455474853516,
+		"inboundReferenceIds": [
+			"151c2f1d810508a2de8c43d25ba5b1e2",
+			"e719489e5944abdc19d75a8fd9237004"
+		],
+		"outboundReferenceIds": [
+			"1224416848ee2279b9865061b82f62ff",
+			"3187c9fceebd432147246fcc50bcebb8"
+		]
+	},
+	{
+		"id": "bc28b90a4ff61ddff691b9aa12bae89c",
+		"nodeId": "42531500",
+		"lat": 40.62980270385742,
+		"lon": -74.00471496582031,
+		"inboundReferenceIds": [
+			"edec6377d52811c4affedb9820f44586",
+			"2a79848ae9b32ea32479a0bc40ad4dc1",
+			"a152d637e750a4ac8bdd981c556965a5"
+		],
+		"outboundReferenceIds": [
+			"39a6f26f324f3b95fb8771731c84430f",
+			"be68c44771197e2231a89bc154dad024",
+			"583b49b05f491255246c5c2593883972"
+		]
+	},
+	{
+		"id": "1b3703280d75efd84475cca6450cc3bf",
+		"nodeId": "4792145962",
+		"lat": 40.630977630615234,
+		"lon": -74.0059814453125,
+		"inboundReferenceIds": [
+			"8f4e865b51eb64bbac33b68e8fe30971"
+		],
+		"outboundReferenceIds": [
+			"3792db293c350dfa08cfc68343d7697f"
+		]
+	},
+	{
+		"id": "363856001ce9c54b6d0aeecdad678b0c",
+		"nodeId": "4792149356",
+		"lat": 40.631351470947266,
+		"lon": -74.00577545166016,
+		"inboundReferenceIds": [
+			"b555ea8ac50a5eaaadcdf357e1916c42",
+			"d32c1d40615f846f26852d5a109b6835"
+		],
+		"outboundReferenceIds": [
+			"d72985a9a3f446b481439236b21b809d",
+			"88b99b9ded60bc5f798475ca4a483bd1"
+		]
+	},
+	{
+		"id": "534733159c6a0898383540edffe7afc3",
+		"nodeId": "42486098",
+		"lat": 40.63169479370117,
+		"lon": -74.00634002685547,
+		"outboundReferenceIds": [
+			"b555ea8ac50a5eaaadcdf357e1916c42"
+		]
+	},
+	{
+		"id": "59eb69de0a587a0ac8a8dccd1ab4e191",
+		"nodeId": "4792146365",
+		"lat": 40.63101577758789,
+		"lon": -74.00609588623047,
+		"inboundReferenceIds": [
+			"9c7966a4df60f6199b2cd90ea7483072",
+			"1c5963adb64727abad9005e8bc40fd79",
+			"88d316fbd29ec6b59b609a681f4e77ed"
+		],
+		"outboundReferenceIds": [
+			"97fe38ddc5126f0113e8df2ab7906109",
+			"ae897ef7c7c120f5b404478f420feb28",
+			"3c85ff94267b963df8c005e2412adf7c"
+		]
+	},
+	{
+		"id": "641a15ea4bd51c4fa4ed312a77b6de9b",
+		"nodeId": "42460966",
+		"lat": 40.63258361816406,
+		"lon": -74.00630950927734,
+		"inboundReferenceIds": [
+			"d62df5503e02d75ec4e773307b3b1c19",
+			"18ba268d51c7aa139c1d31e6e271f7c9",
+			"9611462ef4678b111aabb8bba1ac6bc3"
+		],
+		"outboundReferenceIds": [
+			"7088e5523481848af8dfc1508b34e321",
+			"b91f3aa999b781e8f3ef393a1377a964"
+		]
+	}
+]
