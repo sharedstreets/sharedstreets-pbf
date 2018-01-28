@@ -54,7 +54,8 @@
     "tape": "*",
     "tslint": "*",
     "typescript": "*",
-    "uglifyjs": "*"
+    "uglifyjs": "*",
+    "write-json-file": "^2.3.0"
   },
   "dependencies": {
     "protobufjs": "6.x",
