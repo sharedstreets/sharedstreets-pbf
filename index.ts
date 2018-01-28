@@ -1,4 +1,4 @@
-import { BufferReader } from 'protobufjs/minimal'
+import { Reader } from 'protobufjs/minimal'
 import * as Proto from './proto/sharedstreets'
 import {
   SharedStreetsGeometry,
@@ -77,7 +77,7 @@ export function metadata (buffer: Buffer | Uint8Array) {
 
 function readBuffer<T = any>(buffer: Buffer | Uint8Array, parser: any): T[] {
   const results = []
-  const reader = new BufferReader(buffer)
+  const reader = new Reader(buffer)
   while (reader.pos < reader.len) {
     const result: any = parser.decodeDelimited(reader).toJSON()
     results.push(result)
