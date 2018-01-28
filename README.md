@@ -10,20 +10,34 @@ Reads [SharedStreets Protobuf buffers](https://github.com/sharedstreets/sharedst
 $ npm install sharedstreets-pbf
 ```
 
-**In browser**
+**CommonJS**
 
-Download the [minified file](https://unpkg.com/sharedstreets/sharedstreets-pbf.min.js), and include it in a script tag. This will expose a global variable named **sharedstreetsPbf**.
-
-```html
-<script src="sharedstreets-pbf.min.js" charset="utf-8"></script>
+```js
+const sharedstreetsPbf = require('sharedstreets-pbf');
 ```
 
-**In browser ES Modules support**
+**Typescript**
+
+```js
+import * as sharedstreetsPbf from 'sharedstreets-pbf';
+```
+
+## In Browser
+
+Download the latest [sharedstreets-pbf.js](https://unpkg.com/sharedstreets-pbf@latest) UMD file or use the link directly and include it in a script tag.
+
+This will expose a global variable named **sharedstreetsPbf**.
+
+**external url**
 
 ```html
-<script type='module'>
-import * as sharedstreetsPbf from "https://unpkg.com/sharedstreets-pbf?module"
-</script>
+<script src="https://unpkg.com/sharedstreets-pbf@latest" charset="utf-8"></script>
+```
+
+**local file**
+
+```html
+<script src="sharedstreets-pbf.js" charset="utf-8"></script>
 ```
 
 ## API

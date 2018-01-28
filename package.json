@@ -4,7 +4,7 @@
   "description": "SharedStreets, a 'digital commons' for the street",
   "main": "index",
   "types": "index.d.ts",
-  "browser": "dist/sharedstreets-pbf.min.js",
+  "browser": "dist/sharedstreets-pbf.js",
   "files": [
     "index.js",
     "index.ts",
@@ -18,12 +18,10 @@
     "posttest": "tslint index.ts --project tsconfig.json",
     "docs": "tsc && documentation readme --shallow index.js --section=API",
     "bench": "node bench.js",
-    "prebuild": "npm run protobuf && npm run protobuf-ts",
-    "build": "tsc && npm run browserify && npm run uglify",
     "protobuf": "pbjs -t static-module -w commonjs -o proto/sharedstreets.js proto/sharedstreets.proto",
-    "protobuf-ts": "pbts -o proto/sharedstreets.d.ts proto/sharedstreets.js",
-    "browserify": "browserify index.js -s sharedstreets -o ./dist/sharedstreets.js",
-    "uglify": "uglifyjs dist/sharedstreets.js -o dist/sharedstreets.min.js -cm"
+    "postprotobuf": "pbts -o proto/sharedstreets.d.ts proto/sharedstreets.js",
+    "build": "npm run protobuf && browserify index.ts -p tsify -s sharedstreetsPbf -o dist/sharedstreets-pbf.js",
+    "postbuild": "uglifyjs dist/sharedstreets-pbf.js -o dist/sharedstreets-pbf.min.js -cm"
   },
   "repository": {
     "type": "git",
@@ -52,10 +50,12 @@
     "browserify": "*",
     "documentation": "*",
     "tape": "*",
+    "tsify": "*",
     "tslint": "*",
     "typescript": "*",
+    "uglify-js": "*",
     "uglifyjs": "*",
-    "write-json-file": "^2.3.0"
+    "write-json-file": "*"
   },
   "dependencies": {
     "protobufjs": "6.x",
