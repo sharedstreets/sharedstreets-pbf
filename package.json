@@ -54,7 +54,6 @@
     "tslint": "*",
     "typescript": "*",
     "uglify-js": "*",
-    "uglifyjs": "*",
     "write-json-file": "*"
   },
   "dependencies": {
