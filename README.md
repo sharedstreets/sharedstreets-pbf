@@ -24,21 +24,7 @@ import * as sharedstreetsPbf from 'sharedstreets-pbf';
 
 ## In Browser
 
-Download the latest [sharedstreets-pbf.js](https://unpkg.com/sharedstreets-pbf@latest) UMD file or use the link directly and include it in a script tag.
-
-This will expose a global variable named **sharedstreetsPbf**.
-
-**external url**
-
-```html
-<script src="https://unpkg.com/sharedstreets-pbf@latest" charset="utf-8"></script>
-```
-
-**local file**
-
-```html
-<script src="sharedstreets-pbf.js" charset="utf-8"></script>
-```
+For a full list of web examples, check out [SharedStreets examples](https://github.com/sharedstreets/sharedstreets-examples).
 
 ## API
 

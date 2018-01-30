@@ -3,12 +3,10 @@
   "version": "0.5.0",
   "description": "SharedStreets, a 'digital commons' for the street",
   "main": "index",
-  "browser": "dist/sharedstreets-pbf.js",
   "files": [
     "index.js",
     "index.ts",
-    "proto",
-    "dist"
+    "proto"
   ],
   "scripts": {
     "pretest": "tsc",
@@ -17,9 +15,7 @@
     "docs": "tsc && documentation readme --shallow index.js --section=API",
     "bench": "node bench.js",
     "protobuf": "pbjs -t static-module -w commonjs -o proto/sharedstreets.js proto/sharedstreets.proto",
-    "postprotobuf": "pbts -o proto/sharedstreets.d.ts proto/sharedstreets.js",
-    "build": "npm run protobuf && browserify index.ts -p tsify -s sharedstreetsPbf -o dist/sharedstreets-pbf.js",
-    "postbuild": "uglifyjs dist/sharedstreets-pbf.js -o dist/sharedstreets-pbf.min.js -cm"
+    "postprotobuf": "pbts -o proto/sharedstreets.d.ts proto/sharedstreets.js"
   },
   "repository": {
     "type": "git",
@@ -45,13 +41,10 @@
   "devDependencies": {
     "@types/node": "*",
     "benchmark": "*",
-    "browserify": "*",
     "documentation": "*",
     "tape": "*",
-    "tsify": "*",
     "tslint": "*",
     "typescript": "*",
-    "uglify-js": "*",
     "write-json-file": "*"
   },
   "dependencies": {

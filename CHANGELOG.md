@@ -2,6 +2,7 @@
 
 ## 2018-01-30
 
+- Drop web bundle distro build
 - Update sample PBF data
 
 ## 2018-01-28 (0.5.0)
