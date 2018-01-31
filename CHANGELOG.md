@@ -1,5 +1,9 @@
 # Changelog
 
+## 2018-01-31 (0.6.0)
+
+- Added `defaults` to JSON outputs
+
 ## 2018-01-30
 
 - Drop web bundle distro build
