@@ -1,5 +1,8 @@
 # SharedStreets PBF Parser
 
+[![npm version](https://badge.fury.io/js/sharedstreets-pbf.svg)](https://badge.fury.io/js/sharedstreets-pbf)
+[![Build Status](https://travis-ci.org/sharedstreets/sharedstreets-pbf.svg?branch=master)](https://travis-ci.org/sharedstreets/sharedstreets-pbf)
+
 Reads [SharedStreets Protobuf buffers](https://github.com/sharedstreets/sharedstreets-ref-system/tree/master/proto).
 
 ## Install
