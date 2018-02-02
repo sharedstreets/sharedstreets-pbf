@@ -1,5 +1,10 @@
 # Changelog
 
+## 2018-02-02 (0.7.0)
+
+- Include submodule of `sharedstreets-ref-system`
+- Include auto build for all `*.proto` files
+
 ## 2018-01-31 (0.6.0)
 
 - Added `defaults` to JSON outputs
