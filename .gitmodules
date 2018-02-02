@@ -1,3 +1,4 @@
 [submodule "sharedstreets-ref-system"]
 	path = sharedstreets-ref-system
 	url = https://github.com/sharedstreets/sharedstreets-ref-system.git
+	branch = master
