@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "pretest": "tsc",
-    "test": "node test.js",
+    "test": "tap test.js",
     "posttest": "tslint index.ts --project tsconfig.json",
     "docs": "tsc && documentation readme --shallow index.js --section=API",
     "bench": "node bench.js",
@@ -42,6 +42,7 @@
     "benchmark": "*",
     "documentation": "*",
     "glob": "*",
+    "tap": "*",
     "tape": "*",
     "tslint": "*",
     "typescript": "*",
