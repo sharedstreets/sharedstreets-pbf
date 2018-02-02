@@ -508,8 +508,8 @@ export class OSMMetadata implements IOSMMetadata {
 /** Properties of a SharedStreetsMetadata. */
 export interface ISharedStreetsMetadata {
 
-    /** SharedStreetsMetadata geometryID */
-    geometryID?: (string|null);
+    /** SharedStreetsMetadata geometryId */
+    geometryId?: (string|null);
 
     /** SharedStreetsMetadata osmMetadata */
     osmMetadata?: (IOSMMetadata|null);
@@ -527,8 +527,8 @@ export class SharedStreetsMetadata implements ISharedStreetsMetadata {
      */
     constructor(properties?: ISharedStreetsMetadata);
 
-    /** SharedStreetsMetadata geometryID. */
-    public geometryID: string;
+    /** SharedStreetsMetadata geometryId. */
+    public geometryId: string;
 
     /** SharedStreetsMetadata osmMetadata. */
     public osmMetadata?: (IOSMMetadata|null);
