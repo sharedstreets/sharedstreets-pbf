@@ -1274,7 +1274,7 @@ $root.SharedStreetsMetadata = (function() {
      * Properties of a SharedStreetsMetadata.
      * @exports ISharedStreetsMetadata
      * @interface ISharedStreetsMetadata
-     * @property {string|null} [geometryID] SharedStreetsMetadata geometryID
+     * @property {string|null} [geometryId] SharedStreetsMetadata geometryId
      * @property {IOSMMetadata|null} [osmMetadata] SharedStreetsMetadata osmMetadata
      * @property {Array.<IGISMetadata>|null} [gisMetadata] SharedStreetsMetadata gisMetadata
      */
@@ -1296,12 +1296,12 @@ $root.SharedStreetsMetadata = (function() {
     }
 
     /**
-     * SharedStreetsMetadata geometryID.
-     * @member {string} geometryID
+     * SharedStreetsMetadata geometryId.
+     * @member {string} geometryId
      * @memberof SharedStreetsMetadata
      * @instance
      */
-    SharedStreetsMetadata.prototype.geometryID = "";
+    SharedStreetsMetadata.prototype.geometryId = "";
 
     /**
      * SharedStreetsMetadata osmMetadata.
@@ -1343,8 +1343,8 @@ $root.SharedStreetsMetadata = (function() {
     SharedStreetsMetadata.encode = function encode(message, writer) {
         if (!writer)
             writer = $Writer.create();
-        if (message.geometryID != null && message.hasOwnProperty("geometryID"))
-            writer.uint32(/* id 1, wireType 2 =*/10).string(message.geometryID);
+        if (message.geometryId != null && message.hasOwnProperty("geometryId"))
+            writer.uint32(/* id 1, wireType 2 =*/10).string(message.geometryId);
         if (message.osmMetadata != null && message.hasOwnProperty("osmMetadata"))
             $root.OSMMetadata.encode(message.osmMetadata, writer.uint32(/* id 2, wireType 2 =*/18).fork()).ldelim();
         if (message.gisMetadata != null && message.gisMetadata.length)
@@ -1385,7 +1385,7 @@ $root.SharedStreetsMetadata = (function() {
             var tag = reader.uint32();
             switch (tag >>> 3) {
             case 1:
-                message.geometryID = reader.string();
+                message.geometryId = reader.string();
                 break;
             case 2:
                 message.osmMetadata = $root.OSMMetadata.decode(reader, reader.uint32());
@@ -1430,9 +1430,9 @@ $root.SharedStreetsMetadata = (function() {
     SharedStreetsMetadata.verify = function verify(message) {
         if (typeof message !== "object" || message === null)
             return "object expected";
-        if (message.geometryID != null && message.hasOwnProperty("geometryID"))
-            if (!$util.isString(message.geometryID))
-                return "geometryID: string expected";
+        if (message.geometryId != null && message.hasOwnProperty("geometryId"))
+            if (!$util.isString(message.geometryId))
+                return "geometryId: string expected";
         if (message.osmMetadata != null && message.hasOwnProperty("osmMetadata")) {
             var error = $root.OSMMetadata.verify(message.osmMetadata);
             if (error)
@@ -1462,8 +1462,8 @@ $root.SharedStreetsMetadata = (function() {
         if (object instanceof $root.SharedStreetsMetadata)
             return object;
         var message = new $root.SharedStreetsMetadata();
-        if (object.geometryID != null)
-            message.geometryID = String(object.geometryID);
+        if (object.geometryId != null)
+            message.geometryId = String(object.geometryId);
         if (object.osmMetadata != null) {
             if (typeof object.osmMetadata !== "object")
                 throw TypeError(".SharedStreetsMetadata.osmMetadata: object expected");
@@ -1498,11 +1498,11 @@ $root.SharedStreetsMetadata = (function() {
         if (options.arrays || options.defaults)
             object.gisMetadata = [];
         if (options.defaults) {
-            object.geometryID = "";
+            object.geometryId = "";
             object.osmMetadata = null;
         }
-        if (message.geometryID != null && message.hasOwnProperty("geometryID"))
-            object.geometryID = message.geometryID;
+        if (message.geometryId != null && message.hasOwnProperty("geometryId"))
+            object.geometryId = message.geometryId;
         if (message.osmMetadata != null && message.hasOwnProperty("osmMetadata"))
             object.osmMetadata = $root.OSMMetadata.toObject(message.osmMetadata, options);
         if (message.gisMetadata && message.gisMetadata.length) {
