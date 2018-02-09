@@ -1,7 +1,8 @@
 # Changelog
 
-## 2018-02-02 (0.7.0)
+## 2018-02-02 (0.7.1)
 
+- Expose custom Proto JS references
 - Include all other Proto schemas to `./proto`
 
 ## 2018-01-31 (0.6.0)

@@ -1,11 +1,12 @@
 import { Reader, util } from 'protobufjs/minimal'
-import * as Proto from './proto/sharedstreets'
+import { SharedStreetsProto } from './proto'
 import {
   SharedStreetsGeometry,
   SharedStreetsIntersection,
   SharedStreetsReference,
   SharedStreetsMetadata,
 } from 'sharedstreets-types'
+export * from './proto/index'
 
 /**
  * Geometry Pbf
@@ -21,7 +22,7 @@ import {
  * geoms[0].id // => '81f666c5e1e4de0f7df4fbd793d909b2'
  */
 export function geometry (buffer: Buffer | Uint8Array) {
-  return readBuffer<SharedStreetsGeometry>(buffer, Proto.SharedStreetsGeometry)
+  return readBuffer<SharedStreetsGeometry>(buffer, SharedStreetsProto.SharedStreetsGeometry)
 }
 
 /**
@@ -38,7 +39,7 @@ export function geometry (buffer: Buffer | Uint8Array) {
  * intersections[0].id // => '8037a9444353cd7dd3f58d9a436f2537'
  */
 export function intersection (buffer: Buffer | Uint8Array) {
-  return readBuffer<SharedStreetsIntersection>(buffer, Proto.SharedStreetsIntersection)
+  return readBuffer<SharedStreetsIntersection>(buffer, SharedStreetsProto.SharedStreetsIntersection)
 }
 
 /**
@@ -55,7 +56,7 @@ export function intersection (buffer: Buffer | Uint8Array) {
  * references[0].id // => '41d73e28819470745fa1f93dc46d82a9'
  */
 export function reference (buffer: Buffer | Uint8Array) {
-  return readBuffer<SharedStreetsReference>(buffer, Proto.SharedStreetsReference)
+  return readBuffer<SharedStreetsReference>(buffer, SharedStreetsProto.SharedStreetsReference)
 }
 
 /**
@@ -72,15 +73,20 @@ export function reference (buffer: Buffer | Uint8Array) {
  * metadatas[0].geometryID // => '81f666c5e1e4de0f7df4fbd793d909b2'
  */
 export function metadata (buffer: Buffer | Uint8Array) {
-  return readBuffer<SharedStreetsMetadata>(buffer, Proto.SharedStreetsMetadata)
+  return readBuffer<SharedStreetsMetadata>(buffer, SharedStreetsProto.SharedStreetsMetadata)
 }
 
 /**
- * Decode Delimited using protobufjs
+ * Decode Delimited buffers using protobufjs
  *
- * @private
+ * @param {Buffer|Uint8Array} buffer Pbf Buffer
+ * @param {any} parser Protobufjs Parser
+ * @returns {Object[]} An Array of based on given Protobufjs Parser
+ * @example
+ * const parser = sharedstreetsPbf.SharedStreetsProto.GISMetadata;
+ * const results = sharedstreetsPbf.readBuffer(buffer, parser);
  */
-function readBuffer<T = any>(buffer: Buffer | Uint8Array, parser: any): T[] {
+export function readBuffer<T = any>(buffer: Buffer | Uint8Array, parser: any): T[] {
   const results = []
   const reader = new Reader(buffer)
   while (reader.pos < reader.len) {
