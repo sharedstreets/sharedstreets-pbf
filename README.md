@@ -51,6 +51,7 @@ $ npm test
 -   [intersection](#intersection)
 -   [reference](#reference)
 -   [metadata](#metadata)
+-   [readBuffer](#readbuffer)
 
 ### geometry
 
@@ -135,3 +136,21 @@ metadatas[0].geometryID // => '81f666c5e1e4de0f7df4fbd793d909b2'
 ```
 
 Returns **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;SharedStreetsMetadata>** An Array of SharedStreet Metadatas
+
+### readBuffer
+
+Decode Delimited buffers using protobufjs
+
+**Parameters**
+
+-   `buffer` **([Buffer](https://nodejs.org/api/buffer.html) \| [Uint8Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array))** Pbf Buffer
+-   `parser` **any** Protobufjs Parser
+
+**Examples**
+
+```javascript
+const parser = sharedstreetsPbf.SharedStreetsProto.GISMetadata;
+const results = sharedstreetsPbf.readBuffer(buffer, parser);
+```
+
+Returns **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)>** An Array of based on given Protobufjs Parser
