@@ -1,5 +1,9 @@
 # Changelog
 
+## 2018-02-02 (0.7.0)
+
+- Include all other Proto schemas to `./proto`
+
 ## 2018-01-31 (0.6.0)
 
 - Added `defaults` to JSON outputs
