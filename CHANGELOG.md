@@ -1,5 +1,9 @@
 # Changelog
 
+## 2018-02-09
+
+- Enforce Strict TSLint & Typescript configurations
+
 ## 2018-02-02 (0.7.1)
 
 - Expose custom Proto JS references
