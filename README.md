@@ -10,7 +10,7 @@ Reads [SharedStreets Protobuf buffers](https://github.com/sharedstreets/sharedst
 **In Node.js**
 
 ```bash
-$ npm install sharedstreets-pbf
+$ yarn add sharedstreets-pbf
 ```
 
 **CommonJS**
@@ -37,8 +37,8 @@ For a full list of web examples, check out [SharedStreets examples](https://gith
 $ git clone --recursive git@github.com:sharedstreets/sharedstreets-pbf.git
 $ cd sharedstreets-pbf
 $ yarn
-$ npm run build
-$ npm test
+$ yarn build
+$ yarn test
 ```
 
 ## API
