@@ -38,7 +38,11 @@
   },
   "homepage": "https://github.com/sharedstreets/sharedstreets-pbf#readme",
   "devDependencies": {
+    "@types/glob": "*",
+    "@types/load-json-file": "*",
     "@types/node": "*",
+    "@types/tape": "*",
+    "@types/write-json-file": "*",
     "benchmark": "*",
     "documentation": "*",
     "glob": "*",
