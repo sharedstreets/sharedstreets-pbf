@@ -992,7 +992,7 @@ export interface ISharedStreetsIntersection {
     id?: (string|null);
 
     /** SharedStreetsIntersection nodeId */
-    nodeId?: (number|Long|null);
+    nodeId?: (string|null);
 
     /** SharedStreetsIntersection lon */
     lon?: (number|null);
@@ -1020,7 +1020,7 @@ export class SharedStreetsIntersection implements ISharedStreetsIntersection {
     public id: string;
 
     /** SharedStreetsIntersection nodeId. */
-    public nodeId: (number|Long);
+    public nodeId: string;
 
     /** SharedStreetsIntersection lon. */
     public lon: number;

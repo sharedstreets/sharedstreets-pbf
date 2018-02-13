@@ -2619,7 +2619,7 @@ $root.SharedStreetsIntersection = (function() {
      * @exports ISharedStreetsIntersection
      * @interface ISharedStreetsIntersection
      * @property {string|null} [id] SharedStreetsIntersection id
-     * @property {number|Long|null} [nodeId] SharedStreetsIntersection nodeId
+     * @property {string|null} [nodeId] SharedStreetsIntersection nodeId
      * @property {number|null} [lon] SharedStreetsIntersection lon
      * @property {number|null} [lat] SharedStreetsIntersection lat
      * @property {Array.<string>|null} [inboundReferenceIds] SharedStreetsIntersection inboundReferenceIds
@@ -2653,11 +2653,11 @@ $root.SharedStreetsIntersection = (function() {
 
     /**
      * SharedStreetsIntersection nodeId.
-     * @member {number|Long} nodeId
+     * @member {string} nodeId
      * @memberof SharedStreetsIntersection
      * @instance
      */
-    SharedStreetsIntersection.prototype.nodeId = $util.Long ? $util.Long.fromBits(0,0,true) : 0;
+    SharedStreetsIntersection.prototype.nodeId = "";
 
     /**
      * SharedStreetsIntersection lon.
@@ -2718,7 +2718,7 @@ $root.SharedStreetsIntersection = (function() {
         if (message.id != null && message.hasOwnProperty("id"))
             writer.uint32(/* id 1, wireType 2 =*/10).string(message.id);
         if (message.nodeId != null && message.hasOwnProperty("nodeId"))
-            writer.uint32(/* id 2, wireType 0 =*/16).uint64(message.nodeId);
+            writer.uint32(/* id 2, wireType 2 =*/18).string(message.nodeId);
         if (message.lon != null && message.hasOwnProperty("lon"))
             writer.uint32(/* id 3, wireType 1 =*/25).double(message.lon);
         if (message.lat != null && message.hasOwnProperty("lat"))
@@ -2767,7 +2767,7 @@ $root.SharedStreetsIntersection = (function() {
                 message.id = reader.string();
                 break;
             case 2:
-                message.nodeId = reader.uint64();
+                message.nodeId = reader.string();
                 break;
             case 3:
                 message.lon = reader.double();
@@ -2824,8 +2824,8 @@ $root.SharedStreetsIntersection = (function() {
             if (!$util.isString(message.id))
                 return "id: string expected";
         if (message.nodeId != null && message.hasOwnProperty("nodeId"))
-            if (!$util.isInteger(message.nodeId) && !(message.nodeId && $util.isInteger(message.nodeId.low) && $util.isInteger(message.nodeId.high)))
-                return "nodeId: integer|Long expected";
+            if (!$util.isString(message.nodeId))
+                return "nodeId: string expected";
         if (message.lon != null && message.hasOwnProperty("lon"))
             if (typeof message.lon !== "number")
                 return "lon: number expected";
@@ -2864,14 +2864,7 @@ $root.SharedStreetsIntersection = (function() {
         if (object.id != null)
             message.id = String(object.id);
         if (object.nodeId != null)
-            if ($util.Long)
-                (message.nodeId = $util.Long.fromValue(object.nodeId)).unsigned = true;
-            else if (typeof object.nodeId === "string")
-                message.nodeId = parseInt(object.nodeId, 10);
-            else if (typeof object.nodeId === "number")
-                message.nodeId = object.nodeId;
-            else if (typeof object.nodeId === "object")
-                message.nodeId = new $util.LongBits(object.nodeId.low >>> 0, object.nodeId.high >>> 0).toNumber(true);
+            message.nodeId = String(object.nodeId);
         if (object.lon != null)
             message.lon = Number(object.lon);
         if (object.lat != null)
@@ -2912,21 +2905,14 @@ $root.SharedStreetsIntersection = (function() {
         }
         if (options.defaults) {
             object.id = "";
-            if ($util.Long) {
-                var long = new $util.Long(0, 0, true);
-                object.nodeId = options.longs === String ? long.toString() : options.longs === Number ? long.toNumber() : long;
-            } else
-                object.nodeId = options.longs === String ? "0" : 0;
+            object.nodeId = "";
             object.lon = 0;
             object.lat = 0;
         }
         if (message.id != null && message.hasOwnProperty("id"))
             object.id = message.id;
         if (message.nodeId != null && message.hasOwnProperty("nodeId"))
-            if (typeof message.nodeId === "number")
-                object.nodeId = options.longs === String ? String(message.nodeId) : message.nodeId;
-            else
-                object.nodeId = options.longs === String ? $util.Long.prototype.toString.call(message.nodeId) : options.longs === Number ? new $util.LongBits(message.nodeId.low >>> 0, message.nodeId.high >>> 0).toNumber(true) : message.nodeId;
+            object.nodeId = message.nodeId;
         if (message.lon != null && message.hasOwnProperty("lon"))
             object.lon = options.json && !isFinite(message.lon) ? String(message.lon) : message.lon;
         if (message.lat != null && message.hasOwnProperty("lat"))

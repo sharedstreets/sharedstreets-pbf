@@ -1,5 +1,9 @@
 # Changelog
 
+## 2018-02-12 (0.7.2)
+
+- Update `nodeId` to `string`
+
 ## 2018-02-09
 
 - Enforce Strict TSLint & Typescript configurations
