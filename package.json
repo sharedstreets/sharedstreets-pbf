@@ -38,6 +38,7 @@
   },
   "homepage": "https://github.com/sharedstreets/sharedstreets-pbf#readme",
   "devDependencies": {
+    "@types/benchmark": "*",
     "@types/glob": "*",
     "@types/load-json-file": "*",
     "@types/node": "*",
