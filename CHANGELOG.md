@@ -2,7 +2,7 @@
 
 ## 2018-03-12 (0.8.0)
 
-- Update OSM `name` field (https://github.com/sharedstreets/sharedstreets-ref-system/pull/18)
+- Update OSM Proto `name` field (https://github.com/sharedstreets/sharedstreets-ref-system/pull/18)
 
 ## 2018-02-09
 
