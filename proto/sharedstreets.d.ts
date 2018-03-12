@@ -315,6 +315,9 @@ export interface IWaySection {
 
     /** WaySection nodeIds */
     nodeIds?: ((number|Long)[]|null);
+
+    /** WaySection name */
+    name?: (string|null);
 }
 
 /** Represents a WaySection. */
@@ -343,6 +346,9 @@ export class WaySection implements IWaySection {
 
     /** WaySection nodeIds. */
     public nodeIds: (number|Long)[];
+
+    /** WaySection name. */
+    public name: string;
 
     /**
      * Creates a new WaySection instance using the specified properties.
@@ -420,6 +426,9 @@ export interface IOSMMetadata {
 
     /** OSMMetadata waySections */
     waySections?: (IWaySection[]|null);
+
+    /** OSMMetadata name */
+    name?: (string|null);
 }
 
 /** Represents a OSMMetadata. */
@@ -433,6 +442,9 @@ export class OSMMetadata implements IOSMMetadata {
 
     /** OSMMetadata waySections. */
     public waySections: IWaySection[];
+
+    /** OSMMetadata name. */
+    public name: string;
 
     /**
      * Creates a new OSMMetadata instance using the specified properties.

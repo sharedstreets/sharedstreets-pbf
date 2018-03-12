@@ -677,6 +677,7 @@ $root.WaySection = (function() {
      * @property {boolean|null} [roundabout] WaySection roundabout
      * @property {boolean|null} [link] WaySection link
      * @property {Array.<number|Long>|null} [nodeIds] WaySection nodeIds
+     * @property {string|null} [name] WaySection name
      */
 
     /**
@@ -744,6 +745,14 @@ $root.WaySection = (function() {
     WaySection.prototype.nodeIds = $util.emptyArray;
 
     /**
+     * WaySection name.
+     * @member {string} name
+     * @memberof WaySection
+     * @instance
+     */
+    WaySection.prototype.name = "";
+
+    /**
      * Creates a new WaySection instance using the specified properties.
      * @function create
      * @memberof WaySection
@@ -783,6 +792,8 @@ $root.WaySection = (function() {
                 writer.uint64(message.nodeIds[i]);
             writer.ldelim();
         }
+        if (message.name != null && message.hasOwnProperty("name"))
+            writer.uint32(/* id 7, wireType 2 =*/58).string(message.name);
         return writer;
     };
 
@@ -841,6 +852,9 @@ $root.WaySection = (function() {
                         message.nodeIds.push(reader.uint64());
                 } else
                     message.nodeIds.push(reader.uint64());
+                break;
+            case 7:
+                message.name = reader.string();
                 break;
             default:
                 reader.skipType(tag & 7);
@@ -911,6 +925,9 @@ $root.WaySection = (function() {
                 if (!$util.isInteger(message.nodeIds[i]) && !(message.nodeIds[i] && $util.isInteger(message.nodeIds[i].low) && $util.isInteger(message.nodeIds[i].high)))
                     return "nodeIds: integer|Long[] expected";
         }
+        if (message.name != null && message.hasOwnProperty("name"))
+            if (!$util.isString(message.name))
+                return "name: string expected";
         return null;
     };
 
@@ -993,6 +1010,8 @@ $root.WaySection = (function() {
                 else if (typeof object.nodeIds[i] === "object")
                     message.nodeIds[i] = new $util.LongBits(object.nodeIds[i].low >>> 0, object.nodeIds[i].high >>> 0).toNumber(true);
         }
+        if (object.name != null)
+            message.name = String(object.name);
         return message;
     };
 
@@ -1021,6 +1040,7 @@ $root.WaySection = (function() {
             object.oneWay = false;
             object.roundabout = false;
             object.link = false;
+            object.name = "";
         }
         if (message.wayId != null && message.hasOwnProperty("wayId"))
             if (typeof message.wayId === "number")
@@ -1043,6 +1063,8 @@ $root.WaySection = (function() {
                 else
                     object.nodeIds[j] = options.longs === String ? $util.Long.prototype.toString.call(message.nodeIds[j]) : options.longs === Number ? new $util.LongBits(message.nodeIds[j].low >>> 0, message.nodeIds[j].high >>> 0).toNumber(true) : message.nodeIds[j];
         }
+        if (message.name != null && message.hasOwnProperty("name"))
+            object.name = message.name;
         return object;
     };
 
@@ -1067,6 +1089,7 @@ $root.OSMMetadata = (function() {
      * @exports IOSMMetadata
      * @interface IOSMMetadata
      * @property {Array.<IWaySection>|null} [waySections] OSMMetadata waySections
+     * @property {string|null} [name] OSMMetadata name
      */
 
     /**
@@ -1092,6 +1115,14 @@ $root.OSMMetadata = (function() {
      * @instance
      */
     OSMMetadata.prototype.waySections = $util.emptyArray;
+
+    /**
+     * OSMMetadata name.
+     * @member {string} name
+     * @memberof OSMMetadata
+     * @instance
+     */
+    OSMMetadata.prototype.name = "";
 
     /**
      * Creates a new OSMMetadata instance using the specified properties.
@@ -1120,6 +1151,8 @@ $root.OSMMetadata = (function() {
         if (message.waySections != null && message.waySections.length)
             for (var i = 0; i < message.waySections.length; ++i)
                 $root.WaySection.encode(message.waySections[i], writer.uint32(/* id 1, wireType 2 =*/10).fork()).ldelim();
+        if (message.name != null && message.hasOwnProperty("name"))
+            writer.uint32(/* id 2, wireType 2 =*/18).string(message.name);
         return writer;
     };
 
@@ -1158,6 +1191,9 @@ $root.OSMMetadata = (function() {
                 if (!(message.waySections && message.waySections.length))
                     message.waySections = [];
                 message.waySections.push($root.WaySection.decode(reader, reader.uint32()));
+                break;
+            case 2:
+                message.name = reader.string();
                 break;
             default:
                 reader.skipType(tag & 7);
@@ -1203,6 +1239,9 @@ $root.OSMMetadata = (function() {
                     return "waySections." + error;
             }
         }
+        if (message.name != null && message.hasOwnProperty("name"))
+            if (!$util.isString(message.name))
+                return "name: string expected";
         return null;
     };
 
@@ -1228,6 +1267,8 @@ $root.OSMMetadata = (function() {
                 message.waySections[i] = $root.WaySection.fromObject(object.waySections[i]);
             }
         }
+        if (object.name != null)
+            message.name = String(object.name);
         return message;
     };
 
@@ -1246,11 +1287,15 @@ $root.OSMMetadata = (function() {
         var object = {};
         if (options.arrays || options.defaults)
             object.waySections = [];
+        if (options.defaults)
+            object.name = "";
         if (message.waySections && message.waySections.length) {
             object.waySections = [];
             for (var j = 0; j < message.waySections.length; ++j)
                 object.waySections[j] = $root.WaySection.toObject(message.waySections[j], options);
         }
+        if (message.name != null && message.hasOwnProperty("name"))
+            object.name = message.name;
         return object;
     };
 
