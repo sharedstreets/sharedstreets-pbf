@@ -3,11 +3,12 @@ import * as fs from "fs";
 import * as glob from "glob";
 import load from "load-json-file";
 import * as path from "path";
+import {downloadTile, Layer} from "sharedstreets-api";
 import test from "tape";
 import write from "write-json-file";
 import * as sharedstreetsPbf from "./";
 
-const layers = ["geometry", "intersection", "metadata", "reference"];
+const layers: Layer[] = ["geometry", "intersection", "metadata", "reference"];
 const tile = [12, 1186, 1466];
 const [z, x, y] = tile;
 
@@ -15,8 +16,7 @@ const [z, x, y] = tile;
 // Set Environment Variable `export DOWNLOAD=true` to regenerate
 if (process.env.DOWNLOAD) {
   layers.forEach((layer) => {
-    const url = `https://tiles.sharedstreets.io/${z}-${x}-${y}.${layer}.pbf`;
-    axios.get(url).then(({data}) => {
+    downloadTile(tile, layer).then((data) => {
       const filepath = path.join(__dirname, "test", "in", `${z}-${x}-${y}.${layer}.pbf`);
       fs.writeFileSync(filepath, data);
     });

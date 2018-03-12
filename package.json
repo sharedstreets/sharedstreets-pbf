@@ -48,6 +48,7 @@
     "benchmark": "*",
     "documentation": "*",
     "glob": "*",
+    "sharedstreets-api": "*",
     "tap": "*",
     "tape": "*",
     "tslint": "*",
