@@ -2,6 +2,7 @@
 
 ## 2018-03-12 (0.8.0)
 
+- Update PBF datasets from `https://tiles.sharedstreets.io/${z}-${x}-${y}.${layer}.pbf`
 - Update OSM Proto `name` field (https://github.com/sharedstreets/sharedstreets-ref-system/pull/18)
 
 ## 2018-02-09
